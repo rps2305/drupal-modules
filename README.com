@@ -47,14 +47,14 @@ fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor
 fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker to select icons | composer require 'drupal/fontawesome_iconpicker:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_iconpicker
 fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_menu_icons
 geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^1.0' | ^10 || ^11 | https://www.drupal.org/project/geo_location
-geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^4.0' | ^10 || ^11 | https://www.drupal.org/project/geolocation
+geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^3.10' | ^9 | https://www.drupal.org/project/geolocation
 gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^3.0' | ^10 || ^11 | https://www.drupal.org/project/gin
 gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^2.1' | ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
 google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^9.5 || ^10 || ^11 | https://www.drupal.org/project/google_tag
 gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^1.0' | ^10 || ^11 | https://www.drupal.org/project/gridstack
 honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/honeypot
 hreflang | Automatically adds hreflang tags to pages for each enabled language | composer require 'drupal/hreflang:^2.0' | ^10 || ^11 | https://www.drupal.org/project/hreflang
-image_effects | Adds various visual effects and filters to images for enhanced image manipulation | composer require 'drupal/image_effects:^5.0' | ^10 || ^11 | https://www.drupal.org/project/image_effects
+image_effects | Adds various visual effects and filters to images for enhanced image manipulation | composer require 'drupal/image_effects:^3.0' | ^9.2 | https://www.drupal.org/project/image_effects
 image_styles_generator | Warms up image styles for faster loading and CI/CD environments | composer require 'drupal/image_styles_generator:^1.0' | ^10 || ^11 | https://www.drupal.org/project/image_styles_generator
 image_url_formatter | Adds a URL formatter for image fields to output image URL directly | composer require 'drupal/image_url_formatter:^2.0' | ^10 || ^11 | https://www.drupal.org/project/image_url_formatter
 imce | A file manager featuring personal directories and quotas for managing files | composer require 'drupal/imce:^3.1' | ^9.3 || ^10 || ^11 | https://www.drupal.org/project/imce
