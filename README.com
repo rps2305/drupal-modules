@@ -23,13 +23,13 @@ components | Makes it easier for a theme to organize its components by registeri
 contact_block | Provides contact forms in a block using the Drupal core Contact module forms | composer require 'drupal/contact_block:^2.0' | ^10 || ^11 | https://www.drupal.org/project/contact_block
 content_access | Manages permissions for content types by role and author with custom view, edit and delete permissions | composer require 'drupal/content_access:^2.0' | ^10 || ^11 | https://www.drupal.org/project/content_access
 content_browser | Provides a default Entity Browser for browsing and selecting content from a feature-rich grid view | composer require 'drupal/content_browser:^3.0' | ^10 || ^11 | https://www.drupal.org/project/content_browser
-crop | Provides basic API for image cropping that other modules can use | composer require 'drupal/crop:^2.0' | ^10 || ^11 | https://www.drupal.org/project/crop
+crop | Provides basic API for image cropping that other modules can use | composer require 'drupal/crop:^2.3' | ^9.3 || ^10 | https://www.drupal.org/project/crop
 ctools | A developer toolkit that provides APIs and utilities to improve the developer experience | composer require 'drupal/ctools:^4.0' | ^9.5 || ^10 | https://www.drupal.org/project/ctools
 devel | Contains helper functions and pages for Drupal developers and inquisitive admins including debug blocks and menu tabs | composer require 'drupal/devel:^5.0' | ^10.3 || ^11 | https://www.drupal.org/project/devel
 diff | Provides a visual comparison between two content revisions with customizable display options | composer require 'drupal/diff:^2.0' | ^10 || ^11 | https://www.drupal.org/project/diff
 domain | Allows managing multiple domains from a single Drupal installation for multi-site configurations | composer require 'drupal/domain:^2.0' | ^10 || ^11 | https://www.drupal.org/project/domain
 dropzonejs | Drupal integration for DropzoneJS - an open source library providing drag'n'drop file uploads with image previews | composer require 'drupal/dropzonejs:^3.0' | ^10 || ^11 | https://www.drupal.org/project/dropzonejs
-easy_breadcrumb | Updates the core Breadcrumb block to include the current page title with configurable settings | composer require 'drupal/easy_breadcrumb:^2.0' | ^10 || ^11 | https://www.drupal.org/project/easy_breadcrumb
+easy_breadcrumb | Updates the core Breadcrumb block to include the current page title with configurable settings | composer require 'drupal/easy_breadcrumb:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/easy_breadcrumb
 eca | ECA is the no-code solution that empowers you to orchestrate your Drupal site with a powerful rules engine | composer require 'drupal/eca:^1.0' | ^10 || ^11 | https://www.drupal.org/project/eca
 editor_advanced_link | Enhances the CKEditor link dialog by allowing title, class, id, target, rel and other attributes | composer require 'drupal/editor_advanced_link:^2.0' | ^10 || ^11 | https://www.drupal.org/project/editor_advanced_link
 entity_browser | Provides a flexible and generic entity browsing and selecting tool using views and other browsers | composer require 'drupal/entity_browser:^2.10' | ^9.5 || ^10 | https://www.drupal.org/project/entity_browser
@@ -42,7 +42,7 @@ fakeobjects | Plugin to create representative images for certain elements in edi
 fast_404 | Provides fast 404 pages to improve performance and user experience for missing pages | composer require 'drupal/fast_404:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fast_404
 field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^2.0' | ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
 flexslider | Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows | composer require 'drupal/flexslider:^3.0' | ^10 || ^11 | https://www.drupal.org/project/flexslider
-focal_point | Allows you to specify the portion of an image that is most important for cropping | composer require 'drupal/focal_point:^2.0' | ^10 || ^11 | https://www.drupal.org/project/focal_point
+focal_point | Allows you to specify the portion of an image that is most important for cropping | composer require 'drupal/focal_point:^2.1' | ^9.3 || ^10 | https://www.drupal.org/project/focal_point
 fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities | composer require 'drupal/fontawesome:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/fontawesome
 fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker to select icons | composer require 'drupal/fontawesome_iconpicker:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_iconpicker
 fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_menu_icons
