@@ -37,7 +37,7 @@ environment_indicator | Adds a configurable color bar to indicate what server en
 eu_cookie_compliance | Provides a GDPR cookie banner for gathering user consent when storing cookies | composer require 'drupal/eu_cookie_compliance:^2.0' | ^10 || ^11 | https://www.drupal.org/project/eu_cookie_compliance
 extlink | Finds all external links on a web page and adds an external or mail icon to indicate off-site links | composer require 'drupal/extlink:^2.0' | ^10 || ^11 | https://www.drupal.org/project/extlink
 fac | The Fast Autocomplete module provides fast IMDB-like suggestions below a text input field | composer require 'drupal/fac:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fac
-facets | Allows users to add additional filters (facets) to search results to further refine results | composer require 'drupal/facets:^3.0' | ^10 || ^11 | https://www.drupal.org/project/facets
+facets | Allows users to add additional filters (facets) to search results to further refine results | composer require 'drupal/facets:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/facets
 fakeobjects | Plugin to create representative images for certain elements in editable content | composer require 'drupal/fakeobjects:^4.0' | ^10 || ^11 | https://www.drupal.org/project/fakeobjects
 fast_404 | Provides fast 404 pages to improve performance and user experience for missing pages | composer require 'drupal/fast_404:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fast_404
 field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^2.0' | ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
@@ -50,7 +50,7 @@ geo_location | Provides a field type to store and display geographical locations
 geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^4.0' | ^10 || ^11 | https://www.drupal.org/project/geolocation
 gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^3.0' | ^10 || ^11 | https://www.drupal.org/project/gin
 gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^2.1' | ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
-google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^10 || ^11 | https://www.drupal.org/project/google_tag
+google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^9.5 || ^10 || ^11 | https://www.drupal.org/project/google_tag
 gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^1.0' | ^10 || ^11 | https://www.drupal.org/project/gridstack
 honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/honeypot
 hreflang | Automatically adds hreflang tags to pages for each enabled language | composer require 'drupal/hreflang:^2.0' | ^10 || ^11 | https://www.drupal.org/project/hreflang
@@ -71,7 +71,7 @@ layout_library | Provides a layout library allowing content editors to pick from
 leaflet | Drupal advanced integration with the Leaflet JS mapping library for interactive maps | composer require 'drupal/leaflet:^10.0' | ^10 || ^11 | https://www.drupal.org/project/leaflet
 link_attributes | Provides an additional widget for the link field allowing users to set attributes | composer require 'drupal/link_attributes:^2.0' | ^10 || ^11 | https://www.drupal.org/project/link_attributes
 link_icons | Field formatter for Link fields to display icons for the linked service | composer require 'drupal/link_icons:^3.0' | ^10 || ^11 | https://www.drupal.org/project/link_icons
-linkit | Provides autocomplete functionality for Drupal link interfaces supporting nodes, users, taxonomy, files | composer require 'drupal/linkit:^6.0' | ^10 || ^11 | https://www.drupal.org/project/linkit
+linkit | Provides autocomplete functionality for Drupal link interfaces supporting nodes, users, taxonomy, files | composer require 'drupal/linkit:^6.0' | ^9.4 || <10.1 | https://www.drupal.org/project/linkit
 media_bulk_upload | Drupal module to bulk upload files and create media entities automatically using DropzoneJS | composer require 'drupal/media_bulk_upload:^3.0' | ^10 || ^11 | https://www.drupal.org/project/media_bulk_upload
 media_directories | Alternative way to browse and pick Media with a jsTree-based directory structure | composer require 'drupal/media_directories:^2.0' | ^10 || ^11 | https://www.drupal.org/project/media_directories
 media_entity_download | Prevents links from breaking when updating or uploading new files for media entities | composer require 'drupal/media_entity_download:^3.0' | ^10 || ^11 | https://www.drupal.org/project/media_entity_download
@@ -90,7 +90,7 @@ quick_node_clone | Enables cloning of nodes by adding a Clone tab that creates a
 rabbit_hole | Controls display of content on its own page by blocking access to content | composer require 'drupal/rabbit_hole:^2.0' | ^10 || ^11 | https://www.drupal.org/project/rabbit_hole
 radix | Component-based theme for Drupal with Bootstrap 5, Sass, ES6, BrowserSync built-in | composer require 'drupal/radix:^6.0' | ^10 || ^11 | https://www.drupal.org/project/radix
 radix_layouts | Responsive panels layouts for Radix theme | composer require 'drupal/radix_layouts:^2.0' | ^10 || ^11 | https://www.drupal.org/project/radix_layouts
-recaptcha | Uses the reCAPTCHA web service to improve the CAPTCHA system | composer require 'drupal/recaptcha:^3.3' | ^10 || ^11 | https://www.drupal.org/project/recaptcha
+recaptcha | Uses the reCAPTCHA web service to improve the CAPTCHA system | composer require 'drupal/recaptcha:^3.1' | ^8.9 || ^9 || ^10 | https://www.drupal.org/project/recaptcha
 redirect | Creates manual redirects and maintains canonical URLs for all content | composer require 'drupal/redirect:^1.11' | ^9.2 || ^10 || ^11 | https://www.drupal.org/project/redirect
 redirect_after_login | Redirects users to a specified page after login | composer require 'drupal/redirect_after_login:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redirect_after_login
 redis | Integration of Drupal with Redis key-value store providing cache, lock, flood and queue backends | composer require 'drupal/redis:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redis
