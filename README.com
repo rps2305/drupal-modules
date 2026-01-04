@@ -110,7 +110,7 @@ site_audit | Drupal static site analysis platform generating reports with action
 sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^9 || ^10 | https://www.drupal.org/project/sitemap
 sitewide_alert | Adds ability to show alerts at the top of your site | composer require 'drupal/sitewide_alert:^3.0' | ^10 || ^11 | https://www.drupal.org/project/sitewide_alert
 smart_date | Provides a more user-friendly date field with duration concept and easy admin UI | composer require 'drupal/smart_date:^207.0' | ^10 || ^11 | https://www.drupal.org/project/smart_date
-smart_trim | Enables smart trimmed option controlling trim length, measurement, suffix and more link | composer require 'drupal/smart_trim:^2.0' | ^10 || ^11 | https://www.drupal.org/project/smart_trim
+smart_trim | Enables smart trimmed option controlling trim length, measurement, suffix and more link | composer require 'drupal/smart_trim:^2.0' | ^8 || ^9 || ^10 | https://www.drupal.org/project/smart_trim
 social_login | Allows users to register and login with existing social network accounts | composer require 'drupal/social_login:^3.0' | ^10 || ^11 | https://www.drupal.org/project/social_login
 social_media_links | Provides a configurable block displaying links to social media profiles | composer require 'drupal/social_media_links:^3.0' | ^10 || ^11 | https://www.drupal.org/project/social_media_links
 styleguide | Provides a visual testing page for Drupal themes to compare display of common elements | composer require 'drupal/styleguide:^2.0' | ^10 || ^11 | https://www.drupal.org/project/styleguide
@@ -131,7 +131,7 @@ views_bootstrap | Creates Bootstrap components within Views configuration settin
 views_bulk_edit | Allows bulk updating of entity values via views bulk actions | composer require 'drupal/views_bulk_edit:^201.0' | ^10 || ^11 | https://www.drupal.org/project/views_bulk_edit
 views_field_view | Embeds a list inside each row of another view | composer require 'drupal/views_field_view:^3.0' | ^10 || ^11 | https://www.drupal.org/project/views_field_view
 views_ical | Creates iCal feeds with Views using Fields row style | composer require 'drupal/views_ical:^4.0' | ^10 || ^11 | https://www.drupal.org/project/views_ical
-views_infinite_scroll | Loads and displays pages of any view inline using AJAX | composer require 'drupal/views_infinite_scroll:^2.0' | ^10 || ^11 | https://www.drupal.org/project/views_infinite_scroll
+views_infinite_scroll | Loads and displays pages of any view inline using AJAX | composer require 'drupal/views_infinite_scroll:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/views_infinite_scroll
 views_json_source | Extension of views module to work with external JSON data through views | composer require 'drupal/views_json_source:^2.0' | ^10 || ^11 | https://www.drupal.org/project/views_json_source
 views_timelinejs | Renders result rows as TimelineJS slides and eras | composer require 'drupal/views_timelinejs:^4.0' | ^10 || ^11 | https://www.drupal.org/project/views_timelinejs
 webform | Build forms to collect data from site visitors with conditional logic and email notifications | composer require 'drupal/webform:^6.2' | ^10.2 || ^11 | https://www.drupal.org/project/webform
