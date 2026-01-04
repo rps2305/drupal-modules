@@ -1,7 +1,7 @@
 address | Provides functionality for storing, validating and displaying international postal addresses | composer require 'drupal/address:^1.12' | ^9.2 || ^10 | https://www.drupal.org/project/address
  addtoany | Share buttons for Drupal including AddToAny's universal sharing button, Facebook, Mastodon, Bluesky, Pinterest, WhatsApp, Reddit, SMS, email, and many more | composer require 'drupal/addtoany:^2.0' | ^9.4 || ^10 | https://www.drupal.org/project/addtoany
 admin_toolbar | Improves the default administration toolbar menu by turning it into a drop-down for fast access to all administration pages | composer require 'drupal/admin_toolbar:^3.6' | ^9.5 || ^10 || ^11 | https://www.drupal.org/project/admin_toolbar
-advagg | Aggregates CSS and JS files for improved page load performance with advanced aggregation options | composer require 'drupal/advagg:^6.0' | ^10 | https://www.drupal.org/project/advagg
+ advagg | Aggregates CSS and JS files for improved page load performance with advanced aggregation options | composer require 'drupal/advagg:^6.0' | ^9 | https://www.drupal.org/project/advagg
 alogin | Adds an extra layer of security with two-factor authentication for user logins | composer require 'drupal/alogin:^2.0' | ^10 || ^11 | https://www.drupal.org/project/alogin
 announcement_modal | The Announcement modal module provides an appealing modal window on top of your page | composer require 'drupal/announcement_modal:^207.0' | ^10 || ^11 | https://www.drupal.org/project/announcement_modal
  antibot | Prevents spam submissions on forms by checking if JavaScript is enabled and human-like activity occurs | composer require 'drupal/antibot:^2.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/antibot
@@ -10,7 +10,7 @@ auto_entitylabel | Automatically generates labels for content types, taxonomy te
 automatic_updates | Provides Automatic Update of Drupal core and a form to update contrib projects | composer require 'drupal/automatic_updates:^9.0' | ^10 || ^11 | https://www.drupal.org/project/automatic_updates
 backup_migrate | Provides an easy-to-use UI for backing up and restoring Drupal databases and files with compression and schedules | composer require 'drupal/backup_migrate:^5.1' | ^9.3 || ^10 | https://www.drupal.org/project/backup_migrate
  bg_image_formatter | Provides an image formatter that allows you to set an image in background of a tag | composer require 'drupal/bg_image_formatter:^2.0' | ^9.3 || ^10 | https://www.drupal.org/project/bg_image_formatter
-block_class | Provides a field to add CSS classes to a block from the user interface | composer require 'drupal/block_class:^4.0' | ^10 || ^11 | https://www.drupal.org/project/block_class
+ block_class | Provides a field to add CSS classes to a block from the user interface | composer require 'drupal/block_class:^4.0' | ^8 || ^9 | https://www.drupal.org/project/block_class
 block_styles | Allows site builders to select from a list of styles to apply to layout builder blocks and sections | composer require 'drupal/block_styles:^2.0' | ^10 || ^11 | https://www.drupal.org/project/block_styles
 bookable_calendar | A very easy to use Bookable Calendar module for scheduling and reservations | composer require 'drupal/bookable_calendar:^2.0' | ^10 || ^11 | https://www.drupal.org/project/bookable_calendar
 bootstrap_basic_image_gallery | Provides an image formatter that displays images as a simple Bootstrap-based image gallery | composer require 'drupal/bootstrap_basic_image_gallery:^2.0' | ^10 || ^11 | https://www.drupal.org/project/bootstrap_basic_image_gallery
@@ -47,21 +47,21 @@ fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor
  fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker to select icons | composer require 'drupal/fontawesome_iconpicker:^3.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/fontawesome_iconpicker
  fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^9.2 || ^10 | https://www.drupal.org/project/fontawesome_menu_icons
 geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^1.0' | ^10 || ^11 | https://www.drupal.org/project/geo_location
-geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^3.10' | ^9 | https://www.drupal.org/project/geolocation
+ geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^3.12' | ^9 || ^10 | https://www.drupal.org/project/geolocation
 gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^3.0' | ^10 || ^11 | https://www.drupal.org/project/gin
 gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^2.1' | ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
 google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^9.5 || ^10 || ^11 | https://www.drupal.org/project/google_tag
 gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^1.0' | ^10 || ^11 | https://www.drupal.org/project/gridstack
 honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/honeypot
 hreflang | Automatically adds hreflang tags to pages for each enabled language | composer require 'drupal/hreflang:^2.0' | ^10 || ^11 | https://www.drupal.org/project/hreflang
-image_effects | Adds various visual effects and filters to images for enhanced image manipulation | composer require 'drupal/image_effects:^3.0' | ^9.2 | https://www.drupal.org/project/image_effects
+ image_effects | Adds various visual effects and filters to images for enhanced image manipulation | composer require 'drupal/image_effects:^4.0' | ^9.2 || ^10 | https://www.drupal.org/project/image_effects
 image_styles_generator | Warms up image styles for faster loading and CI/CD environments | composer require 'drupal/image_styles_generator:^1.0' | ^10 || ^11 | https://www.drupal.org/project/image_styles_generator
 image_url_formatter | Adds a URL formatter for image fields to output image URL directly | composer require 'drupal/image_url_formatter:^2.0' | ^10 || ^11 | https://www.drupal.org/project/image_url_formatter
 imce | A file manager featuring personal directories and quotas for managing files | composer require 'drupal/imce:^3.1' | ^9.3 || ^10 || ^11 | https://www.drupal.org/project/imce
 inline_entity_form | Provides a widget for creating and editing entities inline within parent forms | composer require 'drupal/inline_entity_form:^3.0@RC' | ^8.8 || ^9 || ^10 || ^11 | https://www.drupal.org/project/inline_entity_form
-jsonapi_boost | Improves the performance of the JSON:API module by cache warming resource types | composer require 'drupal/jsonapi_boost:^2.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_boost
+ jsonapi_boost | Improves the performance of the JSON:API module by cache warming resource types | composer require 'drupal/jsonapi_boost:^2.0' | ^9 || ^10 | https://www.drupal.org/project/jsonapi_boost
 jsonapi_extras | Customizes the JSON:API module with configuration options for your API | composer require 'drupal/jsonapi_extras:^3.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_extras
-jsonapi_include | Makes it easy to parse entity references with JSON:API | composer require 'drupal/jsonapi_include:^2.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_include
+ jsonapi_include | Makes it easy to parse entity references with JSON:API | composer require 'drupal/jsonapi_include:^2.0' | ^11.1 | https://www.drupal.org/project/jsonapi_include
 jsonapi_node_preview_tab | Adds a tab to nodes for quick preview of node's JSON:API representation | composer require 'drupal/jsonapi_node_preview_tab:^1.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_node_preview_tab
 jsonapi_schema | Provides JSON-Schema formatted schemas for JSON:API resources | composer require 'drupal/jsonapi_schema:^1.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_schema
 jsonapi_views | Creates JSON:API Resource for each Views display for external data consumption | composer require 'drupal/jsonapi_views:^9.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_views
@@ -107,7 +107,7 @@ seo_checklist | Uses best practices to check your website for proper search engi
 simple_gmap | Simplest way to get a Google Map displayed with your content | composer require 'drupal/simple_gmap:^4.0' | ^10 || ^11 | https://www.drupal.org/project/simple_gmap
 simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.1' | ^10 || ^11 | https://www.drupal.org/project/simple_sitemap
 site_audit | Drupal static site analysis platform generating reports with actionable recommendations | composer require 'drupal/site_audit:^203.0' | ^10 || ^11 | https://www.drupal.org/project/site_audit
-sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^9 || ^10 | https://www.drupal.org/project/sitemap
+ sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^10.2 || ^11 | https://www.drupal.org/project/sitemap
 sitewide_alert | Adds ability to show alerts at the top of your site | composer require 'drupal/sitewide_alert:^3.0' | ^10 || ^11 | https://www.drupal.org/project/sitewide_alert
 smart_date | Provides a more user-friendly date field with duration concept and easy admin UI | composer require 'drupal/smart_date:^207.0' | ^10 || ^11 | https://www.drupal.org/project/smart_date
 smart_trim | Enables smart trimmed option controlling trim length, measurement, suffix and more link | composer require 'drupal/smart_trim:^2.0' | ^8 || ^9 || ^10 | https://www.drupal.org/project/smart_trim
