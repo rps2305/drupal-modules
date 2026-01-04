@@ -77,7 +77,7 @@ media_directories | Alternative way to browse and pick Media with a jsTree-based
 media_entity_download | Prevents links from breaking when updating or uploading new files for media entities | composer require 'drupal/media_entity_download:^3.0' | ^10 || ^11 | https://www.drupal.org/project/media_entity_download
 media_file_delete | Gives content editors option to delete the associated file when deleting a media entity | composer require 'drupal/media_file_delete:^206.0' | ^10 || ^11 | https://www.drupal.org/project/media_file_delete
 menu_block | Enhances Drupal core menus with functionality to expand all menu links with children | composer require 'drupal/menu_block:^3.0' | ^10 || ^11 | https://www.drupal.org/project/menu_block
-metatag | Allows generating meta tags for site content including OpenGraph, Twitter Cards, and more | composer require 'drupal/metatag:^2.0' | ^10 || ^11 | https://www.drupal.org/project/metatag
+metatag | Allows generating meta tags for site content including OpenGraph, Twitter Cards, and more | composer require 'drupal/metatag:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/metatag
 mobile_detect | Lightweight mobile detection module based on Mobile_Detect.php library | composer require 'drupal/mobile_detect:^3.0' | ^10 || ^11 | https://www.drupal.org/project/mobile_detect
 monitoring | Vendor independent framework for deeply monitoring Drupal and all its projects | composer require 'drupal/monitoring:^5.0' | ^10 || ^11 | https://www.drupal.org/project/monitoring
 oauth_login_oauth2 | Provides OAuth2 login functionality for Drupal | composer require 'drupal/oauth_login_oauth2:^2.0' | ^10 || ^11 | https://www.drupal.org/project/oauth_login_oauth2
