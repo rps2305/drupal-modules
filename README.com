@@ -9,7 +9,7 @@ announcement_modal | The Announcement modal module provides an appealing modal w
 auto_entitylabel | Automatically generates labels for content types, taxonomy terms, and other entities | composer require 'drupal/auto_entitylabel:^3.0' | ^10 || ^11 | https://www.drupal.org/project/auto_entitylabel
 automatic_updates | Provides Automatic Update of Drupal core and a form to update contrib projects | composer require 'drupal/automatic_updates:^9.0' | ^10 || ^11 | https://www.drupal.org/project/automatic_updates
 backup_migrate | Provides an easy-to-use UI for backing up and restoring Drupal databases and files with compression and schedules | composer require 'drupal/backup_migrate:^5.1' | ^9.3 || ^10 | https://www.drupal.org/project/backup_migrate
- bg_image_formatter | Provides an image formatter that allows you to set an image in background of a tag | composer require 'drupal/bg_image_formatter:^2.0' | ^9.3 || ^10 | https://www.drupal.org/project/bg_image_formatter
+  bg_image_formatter | Provides an image formatter that allows you to set an image in background of a tag | composer require 'drupal/bg_image_formatter:^1.13' | ^9.3 || ^10 | https://www.drupal.org/project/bg_image_formatter
  block_class | Provides a field to add CSS classes to a block from the user interface | composer require 'drupal/block_class:^4.0' | ^8 || ^9 | https://www.drupal.org/project/block_class
 block_styles | Allows site builders to select from a list of styles to apply to layout builder blocks and sections | composer require 'drupal/block_styles:^2.0' | ^10 || ^11 | https://www.drupal.org/project/block_styles
 bookable_calendar | A very easy to use Bookable Calendar module for scheduling and reservations | composer require 'drupal/bookable_calendar:^2.0' | ^10 || ^11 | https://www.drupal.org/project/bookable_calendar
@@ -21,7 +21,7 @@ ckeditor_iframe | Integrates the CKEditor iFrame Dialog for embedding iframe con
 coffee | A keyboard navigation tool to quickly access Drupal admin pages without clicking through menus | composer require 'drupal/coffee:^2.0' | ^10.2 || ^11 | https://www.drupal.org/project/coffee
 components | Makes it easier for a theme to organize its components by registering Twig namespaces | composer require 'drupal/components:^3.0' | ^10 || ^11 | https://www.drupal.org/project/components
 contact_block | Provides contact forms in a block using the Drupal core Contact module forms | composer require 'drupal/contact_block:^2.0' | ^10 || ^11 | https://www.drupal.org/project/contact_block
- content_access | Manages permissions for content types by role and author with custom view, edit and delete permissions | composer require 'drupal/content_access:^2.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/content_access
+  content_access | Manages permissions for content types by role and author with custom view, edit and delete permissions | composer require 'drupal/content_access:^1.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/content_access
 content_browser | Provides a default Entity Browser for browsing and selecting content from a feature-rich grid view | composer require 'drupal/content_browser:^3.0' | ^10 || ^11 | https://www.drupal.org/project/content_browser
 crop | Provides basic API for image cropping that other modules can use | composer require 'drupal/crop:^2.3' | ^9.3 || ^10 | https://www.drupal.org/project/crop
 ctools | A developer toolkit that provides APIs and utilities to improve the developer experience | composer require 'drupal/ctools:^4.0' | ^9.5 || ^10 | https://www.drupal.org/project/ctools
@@ -41,9 +41,9 @@ facets | Allows users to add additional filters (facets) to search results to fu
 fakeobjects | Plugin to create representative images for certain elements in editable content | composer require 'drupal/fakeobjects:^4.0' | ^10 || ^11 | https://www.drupal.org/project/fakeobjects
 fast_404 | Provides fast 404 pages to improve performance and user experience for missing pages | composer require 'drupal/fast_404:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fast_404
 field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^2.0' | ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
- flexslider | Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows | composer require 'drupal/flexslider:^3.0' | ^9 || ^10 | https://www.drupal.org/project/flexslider
+  flexslider | Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows | composer require 'drupal/flexslider:^2.0' | ^8 || ^9 | https://www.drupal.org/project/flexslider
 focal_point | Allows you to specify the portion of an image that is most important for cropping | composer require 'drupal/focal_point:^2.1' | ^9.3 || ^10 | https://www.drupal.org/project/focal_point
-fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities | composer require 'drupal/fontawesome:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/fontawesome
+ fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities | composer require 'drupal/fontawesome:^2.23' | ^9.4 || ^10 | https://www.drupal.org/project/fontawesome
  fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker to select icons | composer require 'drupal/fontawesome_iconpicker:^3.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/fontawesome_iconpicker
  fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^9.2 || ^10 | https://www.drupal.org/project/fontawesome_menu_icons
 geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^1.0' | ^10 || ^11 | https://www.drupal.org/project/geo_location
