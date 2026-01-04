@@ -66,7 +66,7 @@ jsonapi_node_preview_tab | Adds a tab to nodes for quick preview of node's JSON:
 jsonapi_schema | Provides JSON-Schema formatted schemas for JSON:API resources | composer require 'drupal/jsonapi_schema:^1.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_schema
 jsonapi_views | Creates JSON:API Resource for each Views display for external data consumption | composer require 'drupal/jsonapi_views:^9.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_views
 juicebox | Provides integration between the Juicebox HTML5 responsive gallery library and Drupal | composer require 'drupal/juicebox:^2011.0' | ^10 || ^11 | https://www.drupal.org/project/juicebox
-layout_builder_styles | Allows site builders to select from a list of styles to apply to layout builder blocks | composer require 'drupal/layout_builder_styles:^2.0' | ^10 || ^11 | https://www.drupal.org/project/layout_builder_styles
+layout_builder_styles | Allows site builders to select from a list of styles to apply to layout builder blocks | composer require 'drupal/layout_builder_styles:^2.0' | ^8.7.7 || ^9 || ^10 | https://www.drupal.org/project/layout_builder_styles
 layout_library | Provides a layout library allowing content editors to pick from pre-defined layouts | composer require 'drupal/layout_library:^2.0' | ^10 || ^11 | https://www.drupal.org/project/layout_library
 leaflet | Drupal advanced integration with the Leaflet JS mapping library for interactive maps | composer require 'drupal/leaflet:^10.0' | ^10 || ^11 | https://www.drupal.org/project/leaflet
 link_attributes | Provides an additional widget for the link field allowing users to set attributes | composer require 'drupal/link_attributes:^2.0' | ^10 || ^11 | https://www.drupal.org/project/link_attributes
@@ -76,7 +76,7 @@ media_bulk_upload | Drupal module to bulk upload files and create media entities
 media_directories | Alternative way to browse and pick Media with a jsTree-based directory structure | composer require 'drupal/media_directories:^2.0' | ^10 || ^11 | https://www.drupal.org/project/media_directories
 media_entity_download | Prevents links from breaking when updating or uploading new files for media entities | composer require 'drupal/media_entity_download:^3.0' | ^10 || ^11 | https://www.drupal.org/project/media_entity_download
 media_file_delete | Gives content editors option to delete the associated file when deleting a media entity | composer require 'drupal/media_file_delete:^206.0' | ^10 || ^11 | https://www.drupal.org/project/media_file_delete
-menu_block | Enhances Drupal core menus with functionality to expand all menu links with children | composer require 'drupal/menu_block:^3.0' | ^10 || ^11 | https://www.drupal.org/project/menu_block
+menu_block | Enhances Drupal core menus with functionality to expand all menu links with children | composer require 'drupal/menu_block:^1.11' | ^9.1 || ^10 | https://www.drupal.org/project/menu_block
 metatag | Allows generating meta tags for site content including OpenGraph, Twitter Cards, and more | composer require 'drupal/metatag:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/metatag
 mobile_detect | Lightweight mobile detection module based on Mobile_Detect.php library | composer require 'drupal/mobile_detect:^3.0' | ^10 || ^11 | https://www.drupal.org/project/mobile_detect
 monitoring | Vendor independent framework for deeply monitoring Drupal and all its projects | composer require 'drupal/monitoring:^5.0' | ^10 || ^11 | https://www.drupal.org/project/monitoring
@@ -107,7 +107,7 @@ seo_checklist | Uses best practices to check your website for proper search engi
 simple_gmap | Simplest way to get a Google Map displayed with your content | composer require 'drupal/simple_gmap:^4.0' | ^10 || ^11 | https://www.drupal.org/project/simple_gmap
 simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.1' | ^10 || ^11 | https://www.drupal.org/project/simple_sitemap
 site_audit | Drupal static site analysis platform generating reports with actionable recommendations | composer require 'drupal/site_audit:^203.0' | ^10 || ^11 | https://www.drupal.org/project/site_audit
-sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^10 || ^11 | https://www.drupal.org/project/sitemap
+sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^9 || ^10 | https://www.drupal.org/project/sitemap
 sitewide_alert | Adds ability to show alerts at the top of your site | composer require 'drupal/sitewide_alert:^3.0' | ^10 || ^11 | https://www.drupal.org/project/sitewide_alert
 smart_date | Provides a more user-friendly date field with duration concept and easy admin UI | composer require 'drupal/smart_date:^207.0' | ^10 || ^11 | https://www.drupal.org/project/smart_date
 smart_trim | Enables smart trimmed option controlling trim length, measurement, suffix and more link | composer require 'drupal/smart_trim:^2.0' | ^10 || ^11 | https://www.drupal.org/project/smart_trim
