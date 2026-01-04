@@ -92,14 +92,14 @@ radix | Component-based theme for Drupal with Bootstrap 5, Sass, ES6, BrowserSyn
 radix_layouts | Responsive panels layouts for Radix theme | composer require 'drupal/radix_layouts:^5.0' | ^8 || ^9 || ^10 | https://www.drupal.org/project/radix_layouts
  recaptcha | Uses the reCAPTCHA web service to improve the CAPTCHA system | composer require 'drupal/recaptcha:^3.3' | ^10 || ^11 | https://www.drupal.org/project/recaptcha
 redirect | Creates manual redirects and maintains canonical URLs for all content | composer require 'drupal/redirect:^1.11' | ^9.2 || ^10 || ^11 | https://www.drupal.org/project/redirect
-redirect_after_login | Redirects users to a specified page after login | composer require 'drupal/redirect_after_login:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redirect_after_login
+redirect_after_login | Redirects users to a specified page after login | composer require 'drupal/redirect_after_login:^2.9' | ^9.3 || ^10 | https://www.drupal.org/project/redirect_after_login
 redis | Integration of Drupal with Redis key-value store providing cache, lock, flood and queue backends | composer require 'drupal/redis:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redis
 restrict_ip | Allows administrators to restrict access to the site to defined IP addresses | composer require 'drupal/restrict_ip:^1.3' | ^8 || ^9 || ^10 | https://www.drupal.org/project/restrict_ip
 robotstxt | Manages robots.txt file for Drupal multisite installations | composer require 'drupal/robotstxt:^1.0' | ^10 || ^11 | https://www.drupal.org/project/robotstxt
 sam | Lullabot-sponsored module for advanced site administration | composer require 'drupal/sam:^1.0' | ^10 || ^11 | https://www.drupal.org/project/sam
 scheduler | Gives editors ability to schedule content, media, and products for publishing at specified dates | composer require 'drupal/scheduler:^2.0' | ^8 || ^9 || ^10 || ^11 | https://www.drupal.org/project/scheduler
 schema_metatag | Extends Metatag module to display structured data as JSON LD | composer require 'drupal/schema_metatag:^3.0' | ^10 || ^11 | https://www.drupal.org/project/schema_metatag
-search404 | Handles 404 pages with search functionality | composer require 'drupal/search404:^2.0' | ^10 || ^11 | https://www.drupal.org/project/search404
+search404 | Handles 404 pages with search functionality | composer require 'drupal/search404:^1.0' | ^8 | https://www.drupal.org/project/search404
 seckit | Provides Drupal with various security-hardening options to mitigate web application vulnerabilities | composer require 'drupal/seckit:^2.0' | ^10 || ^11 | https://www.drupal.org/project/seckit
 security_review | Automates testing for easy-to-make mistakes that render your site insecure | composer require 'drupal/security_review:^3.0' | ^10 || ^11 | https://www.drupal.org/project/security_review
 semanticviews | Makes unformatted views styles more readily configurable without template overrides | composer require 'drupal/semanticviews:^3.0' | ^10 || ^11 | https://www.drupal.org/project/semanticviews
