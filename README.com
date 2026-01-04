@@ -134,7 +134,7 @@ views_ical | Creates iCal feeds with Views using Fields row style | composer req
 views_infinite_scroll | Loads and displays pages of any view inline using AJAX | composer require 'drupal/views_infinite_scroll:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/views_infinite_scroll
 views_json_source | Extension of views module to work with external JSON data through views | composer require 'drupal/views_json_source:^2.0' | ^10 || ^11 | https://www.drupal.org/project/views_json_source
 views_timelinejs | Renders result rows as TimelineJS slides and eras | composer require 'drupal/views_timelinejs:^4.0' | ^10 || ^11 | https://www.drupal.org/project/views_timelinejs
-webform | Build forms to collect data from site visitors with conditional logic and email notifications | composer require 'drupal/webform:^6.2' | ^10.2 || ^11 | https://www.drupal.org/project/webform
+webform | Build forms to collect data from site visitors with conditional logic and email notifications | composer require 'drupal/webform:^6.2' | ^9.4 || ^10 | https://www.drupal.org/project/webform
 webp | Creates a WebP copy of image style derivatives to decrease loading times | composer require 'drupal/webp:^1.0' | ^10 || ^11 | https://www.drupal.org/project/webp
 weight | Provides a weight field that can be added to any fieldable entity for customized sorting | composer require 'drupal/weight:^3.0' | ^10 || ^11 | https://www.drupal.org/project/weight
 yoast_seo | Improves Drupal SEO by helping optimize content around keywords | composer require 'drupal/yoast_seo:^2.0' | ^10 || ^11 | https://www.drupal.org/project/yoast_seo
