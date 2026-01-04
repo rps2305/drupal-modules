@@ -1,6 +1,6 @@
 address | Provides functionality for storing, validating and displaying international postal addresses | composer require 'drupal/address:^1.12' | ^9.2 || ^10 | https://www.drupal.org/project/address
 addtoany | Share buttons for Drupal including AddToAny's universal sharing button, Facebook, Mastodon, Bluesky, Pinterest, WhatsApp, Reddit, SMS, email, and many more | composer require 'drupal/addtoany:^2.0' | ^10 || ^11 | https://www.drupal.org/project/addtoany
-admin_toolbar | Improves the default administration toolbar menu by turning it into a drop-down for fast access to all administration pages | composer require 'drupal/admin_toolbar:^3.4' | ^10 || ^11 | https://www.drupal.org/project/admin_toolbar
+admin_toolbar | Improves the default administration toolbar menu by turning it into a drop-down for fast access to all administration pages | composer require 'drupal/admin_toolbar:^3.6' | ^9.5 || ^10 || ^11 | https://www.drupal.org/project/admin_toolbar
 advagg | Aggregates CSS and JS files for improved page load performance with advanced aggregation options | composer require 'drupal/advagg:^6.0' | ^10 | https://www.drupal.org/project/advagg
 alogin | Adds an extra layer of security with two-factor authentication for user logins | composer require 'drupal/alogin:^2.0' | ^10 || ^11 | https://www.drupal.org/project/alogin
 announcement_modal | The Announcement modal module provides an appealing modal window on top of your page | composer require 'drupal/announcement_modal:^207.0' | ^10 || ^11 | https://www.drupal.org/project/announcement_modal
@@ -8,7 +8,7 @@ antibot | Prevents spam submissions on forms by checking if JavaScript is enable
 asset_injector | Provides administrators with a quick and easy way of injecting CSS and JavaScript into pages | composer require 'drupal/asset_injector:^2.0' | ^10 || ^11 | https://www.drupal.org/project/asset_injector
 auto_entitylabel | Automatically generates labels for content types, taxonomy terms, and other entities | composer require 'drupal/auto_entitylabel:^3.0' | ^10 || ^11 | https://www.drupal.org/project/auto_entitylabel
 automatic_updates | Provides Automatic Update of Drupal core and a form to update contrib projects | composer require 'drupal/automatic_updates:^9.0' | ^10 || ^11 | https://www.drupal.org/project/automatic_updates
-backup_migrate | Provides an easy-to-use UI for backing up and restoring Drupal databases and files with compression and schedules | composer require 'drupal/backup_migrate:^5.0' | ^10 || ^11 | https://www.drupal.org/project/backup_migrate
+backup_migrate | Provides an easy-to-use UI for backing up and restoring Drupal databases and files with compression and schedules | composer require 'drupal/backup_migrate:^5.1' | ^9.3 || ^10 | https://www.drupal.org/project/backup_migrate
 bg_image_formatter | Provides an image formatter that allows you to set an image in background of a tag | composer require 'drupal/bg_image_formatter:^2.0' | ^10 || ^11 | https://www.drupal.org/project/bg_image_formatter
 block_class | Provides a field to add CSS classes to a block from the user interface | composer require 'drupal/block_class:^4.0' | ^10 || ^11 | https://www.drupal.org/project/block_class
 block_styles | Allows site builders to select from a list of styles to apply to layout builder blocks and sections | composer require 'drupal/block_styles:^2.0' | ^10 || ^11 | https://www.drupal.org/project/block_styles
@@ -24,7 +24,7 @@ contact_block | Provides contact forms in a block using the Drupal core Contact 
 content_access | Manages permissions for content types by role and author with custom view, edit and delete permissions | composer require 'drupal/content_access:^2.0' | ^10 || ^11 | https://www.drupal.org/project/content_access
 content_browser | Provides a default Entity Browser for browsing and selecting content from a feature-rich grid view | composer require 'drupal/content_browser:^3.0' | ^10 || ^11 | https://www.drupal.org/project/content_browser
 crop | Provides basic API for image cropping that other modules can use | composer require 'drupal/crop:^2.0' | ^10 || ^11 | https://www.drupal.org/project/crop
-ctools | A developer toolkit that provides APIs and utilities to improve the developer experience | composer require 'drupal/ctools:^4.0' | ^10 || ^11 | https://www.drupal.org/project/ctools
+ctools | A developer toolkit that provides APIs and utilities to improve the developer experience | composer require 'drupal/ctools:^4.0' | ^9.5 || ^10 | https://www.drupal.org/project/ctools
 devel | Contains helper functions and pages for Drupal developers and inquisitive admins including debug blocks and menu tabs | composer require 'drupal/devel:^5.0' | ^10.3 || ^11 | https://www.drupal.org/project/devel
 diff | Provides a visual comparison between two content revisions with customizable display options | composer require 'drupal/diff:^2.0' | ^10 || ^11 | https://www.drupal.org/project/diff
 domain | Allows managing multiple domains from a single Drupal installation for multi-site configurations | composer require 'drupal/domain:^2.0' | ^10 || ^11 | https://www.drupal.org/project/domain
@@ -32,7 +32,7 @@ dropzonejs | Drupal integration for DropzoneJS - an open source library providin
 easy_breadcrumb | Updates the core Breadcrumb block to include the current page title with configurable settings | composer require 'drupal/easy_breadcrumb:^2.0' | ^10 || ^11 | https://www.drupal.org/project/easy_breadcrumb
 eca | ECA is the no-code solution that empowers you to orchestrate your Drupal site with a powerful rules engine | composer require 'drupal/eca:^1.0' | ^10 || ^11 | https://www.drupal.org/project/eca
 editor_advanced_link | Enhances the CKEditor link dialog by allowing title, class, id, target, rel and other attributes | composer require 'drupal/editor_advanced_link:^2.0' | ^10 || ^11 | https://www.drupal.org/project/editor_advanced_link
-entity_browser | Provides a flexible and generic entity browsing and selecting tool using views and other browsers | composer require 'drupal/entity_browser:^3.0' | ^10 || ^11 | https://www.drupal.org/project/entity_browser
+entity_browser | Provides a flexible and generic entity browsing and selecting tool using views and other browsers | composer require 'drupal/entity_browser:^2.10' | ^9.5 || ^10 | https://www.drupal.org/project/entity_browser
 environment_indicator | Adds a configurable color bar to indicate what server environment you're working in | composer require 'drupal/environment_indicator:^4.0' | ^10 || ^11 | https://www.drupal.org/project/environment_indicator
 eu_cookie_compliance | Provides a GDPR cookie banner for gathering user consent when storing cookies | composer require 'drupal/eu_cookie_compliance:^2.0' | ^10 || ^11 | https://www.drupal.org/project/eu_cookie_compliance
 extlink | Finds all external links on a web page and adds an external or mail icon to indicate off-site links | composer require 'drupal/extlink:^2.0' | ^10 || ^11 | https://www.drupal.org/project/extlink
@@ -43,7 +43,7 @@ fast_404 | Provides fast 404 pages to improve performance and user experience fo
 field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^2.0' | ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
 flexslider | Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows | composer require 'drupal/flexslider:^3.0' | ^10 || ^11 | https://www.drupal.org/project/flexslider
 focal_point | Allows you to specify the portion of an image that is most important for cropping | composer require 'drupal/focal_point:^2.0' | ^10 || ^11 | https://www.drupal.org/project/focal_point
-fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities | composer require 'drupal/fontawesome:^4.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome
+fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities | composer require 'drupal/fontawesome:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/fontawesome
 fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker to select icons | composer require 'drupal/fontawesome_iconpicker:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_iconpicker
 fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_menu_icons
 geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^1.0' | ^10 || ^11 | https://www.drupal.org/project/geo_location
@@ -58,7 +58,7 @@ image_effects | Adds various visual effects and filters to images for enhanced i
 image_styles_generator | Warms up image styles for faster loading and CI/CD environments | composer require 'drupal/image_styles_generator:^1.0' | ^10 || ^11 | https://www.drupal.org/project/image_styles_generator
 image_url_formatter | Adds a URL formatter for image fields to output image URL directly | composer require 'drupal/image_url_formatter:^2.0' | ^10 || ^11 | https://www.drupal.org/project/image_url_formatter
 imce | A file manager featuring personal directories and quotas for managing files | composer require 'drupal/imce:^3.1' | ^9.3 || ^10 || ^11 | https://www.drupal.org/project/imce
-inline_entity_form | Provides a widget for creating and editing entities inline within parent forms | composer require 'drupal/inline_entity_form:^3.0' | ^10 || ^11 | https://www.drupal.org/project/inline_entity_form
+inline_entity_form | Provides a widget for creating and editing entities inline within parent forms | composer require 'drupal/inline_entity_form:^3.0@RC' | ^8.8 || ^9 || ^10 || ^11 | https://www.drupal.org/project/inline_entity_form
 jsonapi_boost | Improves the performance of the JSON:API module by cache warming resource types | composer require 'drupal/jsonapi_boost:^2.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_boost
 jsonapi_extras | Customizes the JSON:API module with configuration options for your API | composer require 'drupal/jsonapi_extras:^3.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_extras
 jsonapi_include | Makes it easy to parse entity references with JSON:API | composer require 'drupal/jsonapi_include:^2.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_include
@@ -97,7 +97,7 @@ redis | Integration of Drupal with Redis key-value store providing cache, lock, 
 restrict_ip | Allows administrators to restrict access to the site to defined IP addresses | composer require 'drupal/restrict_ip:^127.0' | ^10 || ^11 | https://www.drupal.org/project/restrict_ip
 robotstxt | Manages robots.txt file for Drupal multisite installations | composer require 'drupal/robotstxt:^1.0' | ^10 || ^11 | https://www.drupal.org/project/robotstxt
 sam | Lullabot-sponsored module for advanced site administration | composer require 'drupal/sam:^1.0' | ^10 || ^11 | https://www.drupal.org/project/sam
-scheduler | Gives editors ability to schedule content, media, and products for publishing at specified dates | composer require 'drupal/scheduler:^2.0' | ^10 || ^11 | https://www.drupal.org/project/scheduler
+scheduler | Gives editors ability to schedule content, media, and products for publishing at specified dates | composer require 'drupal/scheduler:^2.0' | ^8 || ^9 || ^10 || ^11 | https://www.drupal.org/project/scheduler
 schema_metatag | Extends Metatag module to display structured data as JSON LD | composer require 'drupal/schema_metatag:^3.0' | ^10 || ^11 | https://www.drupal.org/project/schema_metatag
 search404 | Handles 404 pages with search functionality | composer require 'drupal/search404:^2.0' | ^10 || ^11 | https://www.drupal.org/project/search404
 seckit | Provides Drupal with various security-hardening options to mitigate web application vulnerabilities | composer require 'drupal/seckit:^2.0' | ^10 || ^11 | https://www.drupal.org/project/seckit
@@ -127,7 +127,7 @@ upgrade_status | Reviews Drupal major upgrade readiness of the environment and c
 url_embed | Allows URLs to be embedded within text areas using WYSIWYG editor | composer require 'drupal/url_embed:^3.0' | ^10 || ^11 | https://www.drupal.org/project/url_embed
 video_embed_facebook | Integration for Facebook videos into Video Embed Field | composer require 'drupal/video_embed_facebook:^3.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_facebook
 video_embed_field | Creates a simple field type to embed videos from YouTube and Vimeo with thumbnails | composer require 'drupal/video_embed_field:^3.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_field
-views_bootstrap | Creates Bootstrap components within Views configuration settings | composer require 'drupal/views_bootstrap:^5.0' | ^10 || ^11 | https://www.drupal.org/project/views_bootstrap
+views_bootstrap | Creates Bootstrap components within Views configuration settings | composer require 'drupal/views_bootstrap:^5.5' | ^10 || ^11 | https://www.drupal.org/project/views_bootstrap
 views_bulk_edit | Allows bulk updating of entity values via views bulk actions | composer require 'drupal/views_bulk_edit:^201.0' | ^10 || ^11 | https://www.drupal.org/project/views_bulk_edit
 views_field_view | Embeds a list inside each row of another view | composer require 'drupal/views_field_view:^3.0' | ^10 || ^11 | https://www.drupal.org/project/views_field_view
 views_ical | Creates iCal feeds with Views using Fields row style | composer require 'drupal/views_ical:^4.0' | ^10 || ^11 | https://www.drupal.org/project/views_ical
