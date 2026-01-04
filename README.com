@@ -90,7 +90,7 @@ quick_node_clone | Enables cloning of nodes by adding a Clone tab that creates a
 rabbit_hole | Controls display of content on its own page by blocking access to content | composer require 'drupal/rabbit_hole:^2.0' | ^10 || ^11 | https://www.drupal.org/project/rabbit_hole
 radix | Component-based theme for Drupal with Bootstrap 5, Sass, ES6, BrowserSync built-in | composer require 'drupal/radix:^6.0' | ^10 || ^11 | https://www.drupal.org/project/radix
 radix_layouts | Responsive panels layouts for Radix theme | composer require 'drupal/radix_layouts:^2.0' | ^10 || ^11 | https://www.drupal.org/project/radix_layouts
-recaptcha | Uses the reCAPTCHA web service to improve the CAPTCHA system | composer require 'drupal/recaptcha:^3.1' | ^8.9 || ^9 || ^10 | https://www.drupal.org/project/recaptcha
+ recaptcha | Uses the reCAPTCHA web service to improve the CAPTCHA system | composer require 'drupal/recaptcha:^3.3' | ^10 || ^11 | https://www.drupal.org/project/recaptcha
 redirect | Creates manual redirects and maintains canonical URLs for all content | composer require 'drupal/redirect:^1.11' | ^9.2 || ^10 || ^11 | https://www.drupal.org/project/redirect
 redirect_after_login | Redirects users to a specified page after login | composer require 'drupal/redirect_after_login:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redirect_after_login
 redis | Integration of Drupal with Redis key-value store providing cache, lock, flood and queue backends | composer require 'drupal/redis:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redis
