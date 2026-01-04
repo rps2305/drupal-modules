@@ -30,7 +30,7 @@ diff | Provides a visual comparison between two content revisions with customiza
 domain | Allows managing multiple domains from a single Drupal installation for multi-site configurations | composer require 'drupal/domain:^2.0' | ^10 || ^11 | https://www.drupal.org/project/domain
 dropzonejs | Drupal integration for DropzoneJS - an open source library providing drag'n'drop file uploads with image previews | composer require 'drupal/dropzonejs:^2.10' | ^9.3 || ^10 | https://www.drupal.org/project/dropzonejs
 easy_breadcrumb | Updates the core Breadcrumb block to include the current page title with configurable settings | composer require 'drupal/easy_breadcrumb:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/easy_breadcrumb
-eca | ECA is the no-code solution that empowers you to orchestrate your Drupal site with a powerful rules engine | composer require 'drupal/eca:^1.0' | ^10 || ^11 | https://www.drupal.org/project/eca
+eca | ECA is the no-code solution that empowers you to orchestrate your Drupal site with a powerful rules engine | composer require 'drupal/eca:^3.0' | ^10.2 || ^11 | https://www.drupal.org/project/eca
 editor_advanced_link | Enhances the CKEditor link dialog by allowing title, class, id, target, rel and other attributes | composer require 'drupal/editor_advanced_link:^2.1.1' | ^9.2 || ^10 | https://www.drupal.org/project/editor_advanced_link
 entity_browser | Provides a flexible and generic entity browsing and selecting tool using views and other browsers | composer require 'drupal/entity_browser:^2.10' | ^9.5 || ^10 | https://www.drupal.org/project/entity_browser
 environment_indicator | Adds a configurable color bar to indicate what server environment you're working in | composer require 'drupal/environment_indicator:^4.0' | ^9.2 || ^10 | https://www.drupal.org/project/environment_indicator
@@ -105,11 +105,11 @@ security_review | Automates testing for easy-to-make mistakes that render your s
 semanticviews | Makes unformatted views styles more readily configurable without template overrides | composer require 'drupal/semanticviews:^3.0' | ^10 || ^11 | https://www.drupal.org/project/semanticviews
 seo_checklist | Uses best practices to check your website for proper search engine optimization | composer require 'drupal/seo_checklist:^2012.0' | ^10 || ^11 | https://www.drupal.org/project/seo_checklist
 simple_gmap | Simplest way to get a Google Map displayed with your content | composer require 'drupal/simple_gmap:^4.0' | ^10 || ^11 | https://www.drupal.org/project/simple_gmap
-simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.1' | ^10 || ^11 | https://www.drupal.org/project/simple_sitemap
-site_audit | Drupal static site analysis platform generating reports with actionable recommendations | composer require 'drupal/site_audit:^203.0' | ^10 || ^11 | https://www.drupal.org/project/site_audit
+simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.1' | ^9.3 || ^10 | https://www.drupal.org/project/simple_sitemap
+site_audit | Drupal static site analysis platform generating reports with actionable recommendations | composer require 'drupal/site_audit:^4.1' | ^9.3 || ^10 | https://www.drupal.org/project/site_audit
  sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^10.2 || ^11 | https://www.drupal.org/project/sitemap
 sitewide_alert | Adds ability to show alerts at the top of your site | composer require 'drupal/sitewide_alert:^3.0' | ^10 || ^11 | https://www.drupal.org/project/sitewide_alert
-smart_date | Provides a more user-friendly date field with duration concept and easy admin UI | composer require 'drupal/smart_date:^207.0' | ^10 || ^11 | https://www.drupal.org/project/smart_date
+smart_date | Provides a more user-friendly date field with duration concept and easy admin UI | composer require 'drupal/smart_date:^4.1' | ^10 || ^11 | https://www.drupal.org/project/smart_date
 smart_trim | Enables smart trimmed option controlling trim length, measurement, suffix and more link | composer require 'drupal/smart_trim:^2.0' | ^8 || ^9 || ^10 | https://www.drupal.org/project/smart_trim
 social_login | Allows users to register and login with existing social network accounts | composer require 'drupal/social_login:^3.0' | ^10 || ^11 | https://www.drupal.org/project/social_login
 social_media_links | Provides a configurable block displaying links to social media profiles | composer require 'drupal/social_media_links:^3.0' | ^10 || ^11 | https://www.drupal.org/project/social_media_links
@@ -122,13 +122,13 @@ token_filter | Lets you use special placeholders (tokens) as filters in text fie
 twitter_block | Lightweight module to create blocks which display embedded Twitter timelines | composer require 'drupal/twitter_block:^4.0' | ^10 || ^11 | https://www.drupal.org/project/twitter_block
 type_tray | Lullabot-sponsored project for enhanced content type management | composer require 'drupal/type_tray:^1.0' | ^10 || ^11 | https://www.drupal.org/project/type_tray
 uli_custom_workflow | Custom workflow for unique login-links (ULI) in Drupal | composer require 'drupal/uli_custom_workflow:^2.0' | ^10 || ^11 | https://www.drupal.org/project/uli_custom_workflow
-ultimate_cron | Ultimate Cron handling for Drupal running jobs individually in parallel | composer require 'drupal/ultimate_cron:^207.0' | ^10 || ^11 | https://www.drupal.org/project/ultimate_cron
+ultimate_cron | Ultimate Cron handling for Drupal running jobs individually in parallel | composer require 'drupal/ultimate_cron:^2.0' | ^9.3 || ^10.1 || ^11 | https://www.drupal.org/project/ultimate_cron
 upgrade_status | Reviews Drupal major upgrade readiness of the environment and components | composer require 'drupal/upgrade_status:^4.0' | ^10 || ^11 | https://www.drupal.org/project/upgrade_status
 url_embed | Allows URLs to be embedded within text areas using WYSIWYG editor | composer require 'drupal/url_embed:^3.0' | ^10 || ^11 | https://www.drupal.org/project/url_embed
 video_embed_facebook | Integration for Facebook videos into Video Embed Field | composer require 'drupal/video_embed_facebook:^3.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_facebook
 video_embed_field | Creates a simple field type to embed videos from YouTube and Vimeo with thumbnails | composer require 'drupal/video_embed_field:^3.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_field
 views_bootstrap | Creates Bootstrap components within Views configuration settings | composer require 'drupal/views_bootstrap:^5.5' | ^10 || ^11 | https://www.drupal.org/project/views_bootstrap
-views_bulk_edit | Allows bulk updating of entity values via views bulk actions | composer require 'drupal/views_bulk_edit:^201.0' | ^10 || ^11 | https://www.drupal.org/project/views_bulk_edit
+views_bulk_edit | Allows bulk updating of entity values via views bulk actions | composer require 'drupal/views_bulk_edit:^3.0' | ^10.3 || ^11 | https://www.drupal.org/project/views_bulk_edit
 views_field_view | Embeds a list inside each row of another view | composer require 'drupal/views_field_view:^3.0' | ^10 || ^11 | https://www.drupal.org/project/views_field_view
 views_ical | Creates iCal feeds with Views using Fields row style | composer require 'drupal/views_ical:^4.0' | ^10 || ^11 | https://www.drupal.org/project/views_ical
 views_infinite_scroll | Loads and displays pages of any view inline using AJAX | composer require 'drupal/views_infinite_scroll:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/views_infinite_scroll
