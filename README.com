@@ -39,14 +39,14 @@ extlink | Finds all external links on a web page and adds an external or mail ic
 fac | The Fast Autocomplete module provides fast IMDB-like suggestions below a text input field | composer require 'drupal/fac:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fac
 facets | Allows users to add additional filters (facets) to search results to further refine results | composer require 'drupal/facets:^2.0.2' | ^9.2 || ^10 | https://www.drupal.org/project/facets
 fakeobjects | Plugin to create representative images for certain elements in editable content | composer require 'drupal/fakeobjects:^4.0' | ^10 || ^11 | https://www.drupal.org/project/fakeobjects
-fast_404 | Provides fast 404 pages to improve performance and user experience for missing pages | composer require 'drupal/fast_404:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fast_404
-field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^2.0' | ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
+fast_404 | Provides fast 404 pages to improve performance and user experience for missing pages | composer require 'drupal/fast_404:^3.5' | ^10 || ^11 | https://www.drupal.org/project/fast_404
+field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^1.6' | ^9 || ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
   flexslider | Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows | composer require 'drupal/flexslider:^2.0' | ^8 || ^9 | https://www.drupal.org/project/flexslider
 focal_point | Allows you to specify the portion of an image that is most important for cropping | composer require 'drupal/focal_point:^2.1' | ^9.3 || ^10 | https://www.drupal.org/project/focal_point
  fontawesome | Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities | composer require 'drupal/fontawesome:^2.23' | ^9.4 || ^10 | https://www.drupal.org/project/fontawesome
  fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker to select icons | composer require 'drupal/fontawesome_iconpicker:^3.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/fontawesome_iconpicker
  fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^9.2 || ^10 | https://www.drupal.org/project/fontawesome_menu_icons
-geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^1.0' | ^10 || ^11 | https://www.drupal.org/project/geo_location
+geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^3.12' | ^9.3 || ^10 || ^11 | https://www.drupal.org/project/geo_location
  geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^3.12' | ^9 || ^10 | https://www.drupal.org/project/geolocation
 gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^3.0' | ^9 || ^10 || ^11 | https://www.drupal.org/project/gin
 gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^2.1' | ^9 || ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
