@@ -52,7 +52,7 @@ gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal 
 gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^3.0' | ^10.2 || ^11 | https://www.drupal.org/project/gin_toolbar
 google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^10.2 || ^11 | https://www.drupal.org/project/google_tag
 gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^1.0' | ^10.2 || ^11 | https://www.drupal.org/project/gridstack
-honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.0' | ^10.2 || ^11 | https://www.drupal.org/project/honeypot
+honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/honeypot
 hreflang | Automatically adds hreflang tags to pages for each enabled language | composer require 'drupal/hreflang:^2.0' | ^10.2 || ^11 | https://www.drupal.org/project/hreflang
 image_effects | Adds various visual effects and filters to images for enhanced image manipulation | composer require 'drupal/image_effects:^5.0' | ^10.2 || ^11 | https://www.drupal.org/project/image_effects
 image_styles_generator | Warms up image styles for faster loading and CI/CD environments | composer require 'drupal/image_styles_generator:^1.0' | ^10.2 || ^11 | https://www.drupal.org/project/image_styles_generator
