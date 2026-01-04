@@ -48,8 +48,8 @@ fontawesome_iconpicker | Enhances Core Text Fields to use Fontawesome Iconpicker
 fontawesome_menu_icons | Adds Font Awesome icons to menu items in Drupal | composer require 'drupal/fontawesome_menu_icons:^3.0' | ^10 || ^11 | https://www.drupal.org/project/fontawesome_menu_icons
 geo_location | Provides a field type to store and display geographical locations | composer require 'drupal/geo_location:^1.0' | ^10 || ^11 | https://www.drupal.org/project/geo_location
 geolocation | Provides a field type to store geographical locations as latitude/longitude with display integration | composer require 'drupal/geolocation:^4.0' | ^10 || ^11 | https://www.drupal.org/project/geolocation
-gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^5.0' | ^10 || ^11 | https://www.drupal.org/project/gin
-gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^3.0' | ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
+gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^3.0' | ^10 || ^11 | https://www.drupal.org/project/gin
+gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^2.1' | ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
 google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^10 || ^11 | https://www.drupal.org/project/google_tag
 gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^1.0' | ^10 || ^11 | https://www.drupal.org/project/gridstack
 honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/honeypot
@@ -105,7 +105,7 @@ security_review | Automates testing for easy-to-make mistakes that render your s
 semanticviews | Makes unformatted views styles more readily configurable without template overrides | composer require 'drupal/semanticviews:^3.0' | ^10 || ^11 | https://www.drupal.org/project/semanticviews
 seo_checklist | Uses best practices to check your website for proper search engine optimization | composer require 'drupal/seo_checklist:^2012.0' | ^10 || ^11 | https://www.drupal.org/project/seo_checklist
 simple_gmap | Simplest way to get a Google Map displayed with your content | composer require 'drupal/simple_gmap:^4.0' | ^10 || ^11 | https://www.drupal.org/project/simple_gmap
-simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.0' | ^10 || ^11 | https://www.drupal.org/project/simple_sitemap
+simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.1' | ^10 || ^11 | https://www.drupal.org/project/simple_sitemap
 site_audit | Drupal static site analysis platform generating reports with actionable recommendations | composer require 'drupal/site_audit:^203.0' | ^10 || ^11 | https://www.drupal.org/project/site_audit
 sitemap | Provides a way for visitors to navigate your website using an overview of notable pages | composer require 'drupal/sitemap:^2.0' | ^10 || ^11 | https://www.drupal.org/project/sitemap
 sitewide_alert | Adds ability to show alerts at the top of your site | composer require 'drupal/sitewide_alert:^3.0' | ^10 || ^11 | https://www.drupal.org/project/sitewide_alert
@@ -125,7 +125,7 @@ uli_custom_workflow | Custom workflow for unique login-links (ULI) in Drupal | c
 ultimate_cron | Ultimate Cron handling for Drupal running jobs individually in parallel | composer require 'drupal/ultimate_cron:^207.0' | ^10 || ^11 | https://www.drupal.org/project/ultimate_cron
 upgrade_status | Reviews Drupal major upgrade readiness of the environment and components | composer require 'drupal/upgrade_status:^4.0' | ^10 || ^11 | https://www.drupal.org/project/upgrade_status
 url_embed | Allows URLs to be embedded within text areas using WYSIWYG editor | composer require 'drupal/url_embed:^3.0' | ^10 || ^11 | https://www.drupal.org/project/url_embed
-video_embed_facebook | Integration for Facebook videos into Video Embed Field | composer require 'drupal/video_embed_facebook:^2.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_facebook
+video_embed_facebook | Integration for Facebook videos into Video Embed Field | composer require 'drupal/video_embed_facebook:^3.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_facebook
 video_embed_field | Creates a simple field type to embed videos from YouTube and Vimeo with thumbnails | composer require 'drupal/video_embed_field:^3.0' | ^10 || ^11 | https://www.drupal.org/project/video_embed_field
 views_bootstrap | Creates Bootstrap components within Views configuration settings | composer require 'drupal/views_bootstrap:^5.0' | ^10 || ^11 | https://www.drupal.org/project/views_bootstrap
 views_bulk_edit | Allows bulk updating of entity values via views bulk actions | composer require 'drupal/views_bulk_edit:^201.0' | ^10 || ^11 | https://www.drupal.org/project/views_bulk_edit
