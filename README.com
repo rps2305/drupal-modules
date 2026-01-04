@@ -2,7 +2,7 @@ address | Provides functionality for storing, validating and displaying internat
  addtoany | Share buttons for Drupal including AddToAny's universal sharing button, Facebook, Mastodon, Bluesky, Pinterest, WhatsApp, Reddit, SMS, email, and many more | composer require 'drupal/addtoany:^2.0' | ^9.4 || ^10 | https://www.drupal.org/project/addtoany
 admin_toolbar | Improves the default administration toolbar menu by turning it into a drop-down for fast access to all administration pages | composer require 'drupal/admin_toolbar:^3.6' | ^9.5 || ^10 || ^11 | https://www.drupal.org/project/admin_toolbar
  advagg | Aggregates CSS and JS files for improved page load performance with advanced aggregation options | composer require 'drupal/advagg:^6.0' | ^9 | https://www.drupal.org/project/advagg
-alogin | Adds an extra layer of security with two-factor authentication for user logins | composer require 'drupal/alogin:^2.0' | ^10 || ^11 | https://www.drupal.org/project/alogin
+alogin | Adds an extra layer of security with two-factor authentication for user logins | composer require 'drupal/alogin:^2.2' | ^9 || ^10 || ^11 | https://www.drupal.org/project/alogin
 announcement_modal | The Announcement modal module provides an appealing modal window on top of your page | composer require 'drupal/announcement_modal:^2.0' | ^8 || ^9 || ^10 | https://www.drupal.org/project/announcement_modal
  antibot | Prevents spam submissions on forms by checking if JavaScript is enabled and human-like activity occurs | composer require 'drupal/antibot:^2.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/antibot
  asset_injector | Provides administrators with a quick and easy way of injecting CSS and JavaScript into pages | composer require 'drupal/asset_injector:^2.0' | ^9.3 || ^10 | https://www.drupal.org/project/asset_injector
@@ -17,17 +17,17 @@ bootstrap_basic_image_gallery | Provides an image formatter that displays images
  bootstrap_library | Provides Bootstrap framework assets (CSS and JS) for Drupal themes | composer require 'drupal/bootstrap_library:^2.0.2' | ^9 || ^10 | https://www.drupal.org/project/bootstrap_library
 bricks | A new way of building pages on top of Entity Reference, Display Modes, Layout API, tabledrag.js and Flat Tables | composer require 'drupal/bricks:^2.1.2' | ^9.3 || ^10 | https://www.drupal.org/project/bricks
 calendar_link | Provides Twig functions for generating links for various calendaring services like Google Calendar, iCal, and Outlook | composer require 'drupal/calendar_link:^3.0.2' | ^9 || ^10 | https://www.drupal.org/project/calendar_link
-ckeditor_iframe | Integrates the CKEditor iFrame Dialog for embedding iframe content in CKEditor | composer require 'drupal/ckeditor_iframe:^2.0' | ^10 || ^11 | https://www.drupal.org/project/ckeditor_iframe
+ckeditor_iframe | Integrates the CKEditor iFrame Dialog for embedding iframe content in CKEditor | composer require 'drupal/ckeditor_iframe:^2.2' | ^8 || ^9 || ^10 | https://www.drupal.org/project/ckeditor_iframe
 coffee | A keyboard navigation tool to quickly access Drupal admin pages without clicking through menus | composer require 'drupal/coffee:^2.0.0' | ^10.2 || ^11.0 | https://www.drupal.org/project/coffee
 components | Makes it easier for a theme to organize its components by registering Twig namespaces | composer require 'drupal/components:^3.0.0-beta3' | ^9 || ^10 | https://www.drupal.org/project/components
-contact_block | Provides contact forms in a block using the Drupal core Contact module forms | composer require 'drupal/contact_block:^2.0' | ^10 || ^11 | https://www.drupal.org/project/contact_block
+contact_block | Provides contact forms in a block using the Drupal core Contact module forms | composer require 'drupal/contact_block:^1.7' | ^8 || ^9 || ^10 | https://www.drupal.org/project/contact_block
   content_access | Manages permissions for content types by role and author with custom view, edit and delete permissions | composer require 'drupal/content_access:^1.0' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/content_access
 content_browser | Provides a default Entity Browser for browsing and selecting content from a feature-rich grid view | composer require 'drupal/content_browser:^1.1' | ^8 || ^9 || ^10 | https://www.drupal.org/project/content_browser
 crop | Provides basic API for image cropping that other modules can use | composer require 'drupal/crop:^2.3' | ^9.3 || ^10 | https://www.drupal.org/project/crop
 ctools | A developer toolkit that provides APIs and utilities to improve the developer experience | composer require 'drupal/ctools:^4.0' | ^9.5 || ^10 | https://www.drupal.org/project/ctools
 devel | Contains helper functions and pages for Drupal developers and inquisitive admins including debug blocks and menu tabs | composer require 'drupal/devel:^5.1.1' | ^10.3 || ^11 | https://www.drupal.org/project/devel
 diff | Provides a visual comparison between two content revisions with customizable display options | composer require 'drupal/diff:^2.0' | ^10 || ^11 | https://www.drupal.org/project/diff
-domain | Allows managing multiple domains from a single Drupal installation for multi-site configurations | composer require 'drupal/domain:^2.0' | ^10 || ^11 | https://www.drupal.org/project/domain
+domain | Allows managing multiple domains from a single Drupal installation for multi-site configurations | composer require 'drupal/domain:^1.0@beta' | ^8 || ^9 | https://www.drupal.org/project/domain
 dropzonejs | Drupal integration for DropzoneJS - an open source library providing drag'n'drop file uploads with image previews | composer require 'drupal/dropzonejs:^2.10' | ^9.3 || ^10 | https://www.drupal.org/project/dropzonejs
 easy_breadcrumb | Updates the core Breadcrumb block to include the current page title with configurable settings | composer require 'drupal/easy_breadcrumb:^2.0' | ^9.2 || ^10 | https://www.drupal.org/project/easy_breadcrumb
 eca | ECA is the no-code solution that empowers you to orchestrate your Drupal site with a powerful rules engine | composer require 'drupal/eca:^3.0' | ^10.2 || ^11 | https://www.drupal.org/project/eca
@@ -35,10 +35,10 @@ editor_advanced_link | Enhances the CKEditor link dialog by allowing title, clas
 entity_browser | Provides a flexible and generic entity browsing and selecting tool using views and other browsers | composer require 'drupal/entity_browser:^2.10' | ^9.5 || ^10 | https://www.drupal.org/project/entity_browser
 environment_indicator | Adds a configurable color bar to indicate what server environment you're working in | composer require 'drupal/environment_indicator:^4.0' | ^9.2 || ^10 | https://www.drupal.org/project/environment_indicator
  eu_cookie_compliance | Provides a GDPR cookie banner for gathering user consent when storing cookies | composer require 'drupal/eu_cookie_compliance:^2.0' | ^9 || ^10 | https://www.drupal.org/project/eu_cookie_compliance
-extlink | Finds all external links on a web page and adds an external or mail icon to indicate off-site links | composer require 'drupal/extlink:^2.0' | ^10 || ^11 | https://www.drupal.org/project/extlink
-fac | The Fast Autocomplete module provides fast IMDB-like suggestions below a text input field | composer require 'drupal/fac:^2.0' | ^10 || ^11 | https://www.drupal.org/project/fac
+extlink | Finds all external links on a web page and adds an external or mail icon to indicate off-site links | composer require 'drupal/extlink:^1.7' | ^8 || ^9 || ^10 | https://www.drupal.org/project/extlink
+fac | The Fast Autocomplete module provides fast IMDB-like suggestions below a text input field | composer require 'drupal/fac:^1.8' | ^8 || ^9 | https://www.drupal.org/project/fac
 facets | Allows users to add additional filters (facets) to search results to further refine results | composer require 'drupal/facets:^2.0.2' | ^9.2 || ^10 | https://www.drupal.org/project/facets
-fakeobjects | Plugin to create representative images for certain elements in editable content | composer require 'drupal/fakeobjects:^4.0' | ^10 || ^11 | https://www.drupal.org/project/fakeobjects
+fakeobjects | Plugin to create representative images for certain elements in editable content | composer require 'drupal/fakeobjects:^1.3' | ^8 || ^9 || ^10 || ^11 | https://www.drupal.org/project/fakeobjects
 fast_404 | Provides fast 404 pages to improve performance and user experience for missing pages | composer require 'drupal/fast_404:^3.5' | ^10 || ^11 | https://www.drupal.org/project/fast_404
 field_formatter_class | Provides a field formatter to add CSS classes to entity field display | composer require 'drupal/field_formatter_class:^1.6' | ^9 || ^10 || ^11 | https://www.drupal.org/project/field_formatter_class
   flexslider | Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows | composer require 'drupal/flexslider:^2.0' | ^8 || ^9 | https://www.drupal.org/project/flexslider
@@ -51,7 +51,7 @@ geo_location | Provides a field type to store and display geographical locations
 gin | A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface | composer require 'drupal/gin:^3.0' | ^9 || ^10 || ^11 | https://www.drupal.org/project/gin
 gin_toolbar | Helper module to bring the Gin Toolbar into the Frontend of your site | composer require 'drupal/gin_toolbar:^2.1' | ^9 || ^10 || ^11 | https://www.drupal.org/project/gin_toolbar
 google_tag | Integrates Google Tag Manager with Drupal for tracking and analytics | composer require 'drupal/google_tag:^2.0' | ^9.5 || ^10 | https://www.drupal.org/project/google_tag
-gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^1.0' | ^10 || ^11 | https://www.drupal.org/project/gridstack
+gridstack | Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts | composer require 'drupal/gridstack:^2.15' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/gridstack
 honeypot | Uses honeypot and timestamp strategies to deter spam bots from completing forms | composer require 'drupal/honeypot:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/honeypot
 hreflang | Automatically adds hreflang tags to pages for each enabled language | composer require 'drupal/hreflang:^2.0' | ^10 || ^11 | https://www.drupal.org/project/hreflang
  image_effects | Adds various visual effects and filters to images for enhanced image manipulation | composer require 'drupal/image_effects:^4.0' | ^9.2 || ^10 | https://www.drupal.org/project/image_effects
@@ -65,7 +65,7 @@ jsonapi_extras | Customizes the JSON:API module with configuration options for y
 jsonapi_node_preview_tab | Adds a tab to nodes for quick preview of node's JSON:API representation | composer require 'drupal/jsonapi_node_preview_tab:^1.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_node_preview_tab
 jsonapi_schema | Provides JSON-Schema formatted schemas for JSON:API resources | composer require 'drupal/jsonapi_schema:^1.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_schema
 jsonapi_views | Creates JSON:API Resource for each Views display for external data consumption | composer require 'drupal/jsonapi_views:^9.0' | ^10 || ^11 | https://www.drupal.org/project/jsonapi_views
-juicebox | Provides integration between the Juicebox HTML5 responsive gallery library and Drupal | composer require 'drupal/juicebox:^2011.0' | ^10 || ^11 | https://www.drupal.org/project/juicebox
+juicebox | Provides integration between the Juicebox HTML5 responsive gallery library and Drupal | composer require 'drupal/juicebox:^3.0@alpha' | ^8 || ^9 | https://www.drupal.org/project/juicebox
 layout_builder_styles | Allows site builders to select from a list of styles to apply to layout builder blocks | composer require 'drupal/layout_builder_styles:^2.0' | ^8.7.7 || ^9 || ^10 | https://www.drupal.org/project/layout_builder_styles
 layout_library | Provides a layout library allowing content editors to pick from pre-defined layouts | composer require 'drupal/layout_library:^2.0' | ^10 || ^11 | https://www.drupal.org/project/layout_library
  leaflet | Drupal advanced integration with the Leaflet JS mapping library for interactive maps | composer require 'drupal/leaflet:^2.2' | ^8.8 || ^9 || ^10 | https://www.drupal.org/project/leaflet
@@ -75,13 +75,13 @@ link_icons | Field formatter for Link fields to display icons for the linked ser
 media_bulk_upload | Drupal module to bulk upload files and create media entities automatically using DropzoneJS | composer require 'drupal/media_bulk_upload:^3.0' | ^10 || ^11 | https://www.drupal.org/project/media_bulk_upload
 media_directories | Alternative way to browse and pick Media with a jsTree-based directory structure | composer require 'drupal/media_directories:^2.0' | ^10 || ^11 | https://www.drupal.org/project/media_directories
 media_entity_download | Prevents links from breaking when updating or uploading new files for media entities | composer require 'drupal/media_entity_download:^3.0' | ^10 || ^11 | https://www.drupal.org/project/media_entity_download
-media_file_delete | Gives content editors option to delete the associated file when deleting a media entity | composer require 'drupal/media_file_delete:^206.0' | ^10 || ^11 | https://www.drupal.org/project/media_file_delete
+media_file_delete | Gives content editors option to delete the associated file when deleting a media entity | composer require 'drupal/media_file_delete:^2.0@beta' | ^8 || ^9 || ^10 | https://www.drupal.org/project/media_file_delete
 menu_block | Enhances Drupal core menus with functionality to expand all menu links with children | composer require 'drupal/menu_block:^1.11' | ^9.1 || ^10 | https://www.drupal.org/project/menu_block
 metatag | Allows generating meta tags for site content including OpenGraph, Twitter Cards, and more | composer require 'drupal/metatag:^2.2' | ^10.3 || ^11 | https://www.drupal.org/project/metatag
 mobile_detect | Lightweight mobile detection module based on Mobile_Detect.php library | composer require 'drupal/mobile_detect:^3.0' | ^10 || ^11 | https://www.drupal.org/project/mobile_detect
 monitoring | Vendor independent framework for deeply monitoring Drupal and all its projects | composer require 'drupal/monitoring:^5.0' | ^10 || ^11 | https://www.drupal.org/project/monitoring
 oauth_login_oauth2 | Provides OAuth2 login functionality for Drupal | composer require 'drupal/oauth_login_oauth2:^2.0' | ^10 || ^11 | https://www.drupal.org/project/oauth_login_oauth2
-openai | AI module framework for integrating OpenAI and other AI services with Drupal | composer require 'drupal/openai:^203.0' | ^10 || ^11 | https://www.drupal.org/project/openai
+openai | AI module framework for integrating OpenAI and other AI services with Drupal | composer require 'drupal/openai:^4.1' | ^9 || ^10 || ^11 | https://www.drupal.org/project/openai
 pathauto | Automatically generates URL/path aliases for content without requiring manual specification | composer require 'drupal/pathauto:^1.13' | ^9.4 || ^10 || ^11 | https://www.drupal.org/project/pathauto
 photoswipe | Displays picture galleries using PhotoSwipe JavaScript lightbox library with mobile browsing features | composer require 'drupal/photoswipe:^5.0' | ^10 || ^11 | https://www.drupal.org/project/photoswipe
 project_browser | Allows site builders to easily find and install modules from within Drupal admin | composer require 'drupal/project_browser:^2.0' | ^10 || ^11 | https://www.drupal.org/project/project_browser
@@ -94,7 +94,7 @@ radix_layouts | Responsive panels layouts for Radix theme | composer require 'dr
 redirect | Creates manual redirects and maintains canonical URLs for all content | composer require 'drupal/redirect:^1.11' | ^9.2 || ^10 || ^11 | https://www.drupal.org/project/redirect
 redirect_after_login | Redirects users to a specified page after login | composer require 'drupal/redirect_after_login:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redirect_after_login
 redis | Integration of Drupal with Redis key-value store providing cache, lock, flood and queue backends | composer require 'drupal/redis:^2.0' | ^10 || ^11 | https://www.drupal.org/project/redis
-restrict_ip | Allows administrators to restrict access to the site to defined IP addresses | composer require 'drupal/restrict_ip:^127.0' | ^10 || ^11 | https://www.drupal.org/project/restrict_ip
+restrict_ip | Allows administrators to restrict access to the site to defined IP addresses | composer require 'drupal/restrict_ip:^1.3' | ^8 || ^9 || ^10 | https://www.drupal.org/project/restrict_ip
 robotstxt | Manages robots.txt file for Drupal multisite installations | composer require 'drupal/robotstxt:^1.0' | ^10 || ^11 | https://www.drupal.org/project/robotstxt
 sam | Lullabot-sponsored module for advanced site administration | composer require 'drupal/sam:^1.0' | ^10 || ^11 | https://www.drupal.org/project/sam
 scheduler | Gives editors ability to schedule content, media, and products for publishing at specified dates | composer require 'drupal/scheduler:^2.0' | ^8 || ^9 || ^10 || ^11 | https://www.drupal.org/project/scheduler
@@ -103,7 +103,7 @@ search404 | Handles 404 pages with search functionality | composer require 'drup
 seckit | Provides Drupal with various security-hardening options to mitigate web application vulnerabilities | composer require 'drupal/seckit:^2.0' | ^10 || ^11 | https://www.drupal.org/project/seckit
 security_review | Automates testing for easy-to-make mistakes that render your site insecure | composer require 'drupal/security_review:^3.0' | ^10 || ^11 | https://www.drupal.org/project/security_review
 semanticviews | Makes unformatted views styles more readily configurable without template overrides | composer require 'drupal/semanticviews:^3.0' | ^10 || ^11 | https://www.drupal.org/project/semanticviews
-seo_checklist | Uses best practices to check your website for proper search engine optimization | composer require 'drupal/seo_checklist:^2012.0' | ^10 || ^11 | https://www.drupal.org/project/seo_checklist
+seo_checklist | Uses best practices to check your website for proper search engine optimization | composer require 'drupal/seo_checklist:^4.1' | ^8 || ^9 | https://www.drupal.org/project/seo_checklist
 simple_gmap | Simplest way to get a Google Map displayed with your content | composer require 'drupal/simple_gmap:^4.0' | ^10 || ^11 | https://www.drupal.org/project/simple_gmap
 simple_sitemap | Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support | composer require 'drupal/simple_sitemap:^4.1' | ^9.3 || ^10 | https://www.drupal.org/project/simple_sitemap
 site_audit | Drupal static site analysis platform generating reports with actionable recommendations | composer require 'drupal/site_audit:^4.1' | ^9.3 || ^10 | https://www.drupal.org/project/site_audit
