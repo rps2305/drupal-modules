@@ -1136,6 +1136,8 @@ My favourite Drupal modules
   </tbody>
 </table>
 
+Note: No Drupal 11-compatible release found for advagg, announcement_modal, bootstrap_basic_image_gallery, bootstrap_library, content_browser, flexslider, geo_location, gridstack, jsonapi_boost, jsonapi_views, radix_layouts, social_login.
+
 ---
 
 ## Drupal Installation and Development Guide
