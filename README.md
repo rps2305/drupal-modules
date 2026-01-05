@@ -5,6 +5,7 @@ My favourite Drupal modules
   <thead>
     <tr>
       <th>projectname</th>
+      <th>Latest stable</th>
       <th>Description</th>
       <th>Projectpage</th>
       <th>composer install</th>
@@ -14,983 +15,1123 @@ My favourite Drupal modules
   <tbody>
     <tr>
       <td>address</td>
-      <td>Provides functionality for storing, validating and displaying international postal addresses.</td>
+      <td>2.0.4</td>
+      <td>Provides functionality for storing, validating and displaying international postal addresses</td>
       <td><a href="https://www.drupal.org/project/address">https://www.drupal.org/project/address</a></td>
-      <td><code>composer require 'drupal/address:2.0.4'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/address:^2.0'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>addtoany</td>
-      <td>Share buttons for Drupal including AddToAny&#039;s universal sharing button, Facebook, Mastodon, Bluesky, Pinterest, WhatsApp, Reddit, SMS, email, and many more. Large vector share buttons use AddT...</td>
+      <td>2.0.7</td>
+      <td>Share buttons for Drupal including AddToAny's universal sharing button, Facebook, Mastodon, Bluesky, Pinterest, WhatsApp, Reddit, SMS, email, and many more</td>
       <td><a href="https://www.drupal.org/project/addtoany">https://www.drupal.org/project/addtoany</a></td>
-      <td><code>composer require 'drupal/addtoany:2.0.5'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/addtoany:^2.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>admin_toolbar</td>
-      <td>Improves the default administration toolbar menu by turning it into a drop-down, for fast access to all administration pages. Can also provide access to additional tools from the admin menu.</td>
+      <td>3.6.3</td>
+      <td>Improves the default administration toolbar menu by turning it into a drop-down for fast access to all administration pages</td>
       <td><a href="https://www.drupal.org/project/admin_toolbar">https://www.drupal.org/project/admin_toolbar</a></td>
-      <td><code>composer require 'drupal/admin_toolbar:3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/admin_toolbar:^3.6'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>advagg</td>
-      <td>Summary Note: AdvAgg needs a major rework for Drupal 10.1 - recommend holding update or disabling AdvAgg until a new release comes out.</td>
+      <td>8.x-2.2</td>
+      <td>Aggregates CSS and JS files for improved page load performance with advanced aggregation options</td>
       <td><a href="https://www.drupal.org/project/advagg">https://www.drupal.org/project/advagg</a></td>
-      <td><code>composer require 'drupal/advagg:6.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/advagg:^2.2'</code></td>
+      <td>8.x</td>
     </tr>
     <tr>
       <td>alogin</td>
-      <td>Leaks and hacks we’ve read about in recent years make it clear that passwords alone don&#039;t provide enough security to protect your online accounts.</td>
+      <td>2.1.8</td>
+      <td>Adds an extra layer of security with two-factor authentication for user logins</td>
       <td><a href="https://www.drupal.org/project/alogin">https://www.drupal.org/project/alogin</a></td>
-      <td><code>composer require 'drupal/alogin:2.0.8'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/alogin:^2.1'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>announcement_modal</td>
-      <td>The Announcement modal module provides an appealing modal window on top of your page.</td>
+      <td>2.0.0</td>
+      <td>The Announcement modal module provides an appealing modal window on top of your page</td>
       <td><a href="https://www.drupal.org/project/announcement_modal">https://www.drupal.org/project/announcement_modal</a></td>
-      <td><code>composer require 'drupal/announcement_modal:207.26.06'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/announcement_modal:^2.0'</code></td>
+      <td>^8 || ^9 || ^10</td>
     </tr>
     <tr>
       <td>antibot</td>
-      <td>Prevents spam submissions on forms by checking if JavaScript is enabled in the browser and that human-like activity occurs (e.g., mouse move, tab key press, or swipe gesture).</td>
+      <td>2.0.4</td>
+      <td>Prevents spam submissions on forms by checking if JavaScript is enabled and human-like activity occurs</td>
       <td><a href="https://www.drupal.org/project/antibot">https://www.drupal.org/project/antibot</a></td>
-      <td><code>composer require 'drupal/antibot:2.0.4'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/antibot:^2.0'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>asset_injector</td>
-      <td>Provides administrators with a quick and easy way of injecting CSS and JavaScript into pages using the administrator UI.</td>
+      <td>8.x-2.21</td>
+      <td>Provides administrators with a quick and easy way of injecting CSS and JavaScript into pages</td>
       <td><a href="https://www.drupal.org/project/asset_injector">https://www.drupal.org/project/asset_injector</a></td>
-      <td><code>composer require 'drupal/asset_injector'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/asset_injector:^2.21'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>auto_entitylabel</td>
-      <td>"Automatic Entity Label" is a small and efficient module that allows hiding of entity label fields.</td>
+      <td>8.x-3.4</td>
+      <td>Automatically generates labels for content types, taxonomy terms, and other entities</td>
       <td><a href="https://www.drupal.org/project/auto_entitylabel">https://www.drupal.org/project/auto_entitylabel</a></td>
-      <td><code>composer require 'drupal/auto_entitylabel'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/auto_entitylabel:^3.4'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>automatic_updates</td>
+      <td>4.0.0</td>
       <td>Provides Automatic Update of Drupal core and a form to update contrib projects</td>
       <td><a href="https://www.drupal.org/project/automatic_updates">https://www.drupal.org/project/automatic_updates</a></td>
-      <td><code>composer require 'drupal/automatic_updates:9.2.9'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/automatic_updates:^4.0'</code></td>
+      <td>^11.2</td>
     </tr>
     <tr>
       <td>backup_migrate</td>
-      <td>Provides an easy-to-use UI for backing up and restoring Drupal databases and files. Also supports compression and automatic schedules for the backups.</td>
+      <td>5.1.1</td>
+      <td>Provides an easy-to-use UI for backing up and restoring Drupal databases and files with compression and schedules</td>
       <td><a href="https://www.drupal.org/project/backup_migrate">https://www.drupal.org/project/backup_migrate</a></td>
-      <td><code>composer require 'drupal/backup_migrate:5.1.1'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/backup_migrate:^5.1'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>bg_image_formatter</td>
-      <td>This module provides an image formatter that allows you to set an image in background of a tag.</td>
+      <td>8.x-1.18</td>
+      <td>Provides an image formatter that allows you to set an image in background of a tag</td>
       <td><a href="https://www.drupal.org/project/bg_image_formatter">https://www.drupal.org/project/bg_image_formatter</a></td>
-      <td><code>composer require 'drupal/bg_image_formatter'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/bg_image_formatter:^1.18'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>block_class</td>
-      <td>Provides a field to add CSS classes to a block from the user interface.</td>
+      <td>4.0.2</td>
+      <td>Provides a field to add CSS classes to a block from the user interface</td>
       <td><a href="https://www.drupal.org/project/block_class">https://www.drupal.org/project/block_class</a></td>
-      <td><code>composer require 'drupal/block_class:4.0.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/block_class:^4.0'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>block_styles</td>
-      <td>Using the Styles API Module allows to set different styles for block wrapper theme. This module affects only block.html.twig, and not the way content is displayed.</td>
+      <td>2.0.5</td>
+      <td>Allows site builders to select from a list of styles to apply to layout builder blocks and sections</td>
       <td><a href="https://www.drupal.org/project/block_styles">https://www.drupal.org/project/block_styles</a></td>
-      <td><code>composer require 'drupal/block_styles:2.0.5'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/block_styles:^2.0'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>bookable_calendar</td>
-      <td>A very easy to use Bookable Calendar module.</td>
+      <td>2.2.13</td>
+      <td>A very easy to use Bookable Calendar module for scheduling and reservations</td>
       <td><a href="https://www.drupal.org/project/bookable_calendar">https://www.drupal.org/project/bookable_calendar</a></td>
-      <td><code>composer require 'drupal/bookable_calendar:2.2.13'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/bookable_calendar:^2.2'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>bootstrap_basic_image_gallery</td>
-      <td>This module provides an image formatter that displays your images as a simple Bootstrap-based image gallery.</td>
+      <td>8.x-1.6</td>
+      <td>Provides an image formatter that displays images as a simple Bootstrap-based image gallery</td>
       <td><a href="https://www.drupal.org/project/bootstrap_basic_image_gallery">https://www.drupal.org/project/bootstrap_basic_image_gallery</a></td>
-      <td><code>composer require 'drupal/bootstrap_basic_image_gallery'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/bootstrap_basic_image_gallery:^1.6'</code></td>
+      <td>^9 || ^10</td>
     </tr>
     <tr>
       <td>bootstrap_library</td>
-      <td>Drupal 8 is here!! Drupal 8 version includes local libraries as well as external CDN libraries. Drupal 8 version of the module does not depend on libraries module.</td>
+      <td>2.0.2</td>
+      <td>Provides Bootstrap framework assets (CSS and JS) for Drupal themes</td>
       <td><a href="https://www.drupal.org/project/bootstrap_library">https://www.drupal.org/project/bootstrap_library</a></td>
-      <td><code>composer require 'drupal/bootstrap_library:2.0.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/bootstrap_library:^2.0'</code></td>
+      <td>^9 || ^10</td>
     </tr>
     <tr>
       <td>bricks</td>
-      <td>Bricks — is a new way of building pages on top of Entity Reference, Display Modes, Layout API, tabledrag.js and Flat Tables.</td>
+      <td>2.1.5</td>
+      <td>A new way of building pages on top of Entity Reference, Display Modes, Layout API, tabledrag.js and Flat Tables</td>
       <td><a href="https://www.drupal.org/project/bricks">https://www.drupal.org/project/bricks</a></td>
-      <td><code>composer require 'drupal/bricks:8.3.3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/bricks:^2.1'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>calendar_link</td>
-      <td>About Calendar link provides two Twig functions for generating links for various calendaring services. Requirements This module does not require any additional modules outside of Drupal core.</td>
+      <td>3.0.4</td>
+      <td>Provides Twig functions for generating links for various calendaring services like Google Calendar, iCal, and Outlook</td>
       <td><a href="https://www.drupal.org/project/calendar_link">https://www.drupal.org/project/calendar_link</a></td>
-      <td><code>composer require 'drupal/calendar_link:3.0.4'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/calendar_link:^3.0'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>ckeditor_iframe</td>
-      <td>This module integrates the CKEditor iFrame Dialog for CKEditor.</td>
+      <td>3.1.1</td>
+      <td>Integrates the CKEditor iFrame Dialog for embedding iframe content in CKEditor</td>
       <td><a href="https://www.drupal.org/project/ckeditor_iframe">https://www.drupal.org/project/ckeditor_iframe</a></td>
-      <td><code>composer require 'drupal/ckeditor_iframe:8.'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/ckeditor_iframe:^3.1'</code></td>
+      <td>^10.5 || ^11.2</td>
     </tr>
     <tr>
       <td>coffee</td>
-      <td>Tired of wasting time navigating through endless menus in the Drupal admin? Meet Coffee, the ultimate tool to streamline your workflow.</td>
+      <td>2.0.1</td>
+      <td>A keyboard navigation tool to quickly access Drupal admin pages without clicking through menus</td>
       <td><a href="https://www.drupal.org/project/coffee">https://www.drupal.org/project/coffee</a></td>
-      <td><code>composer require 'drupal/coffee:2011.09.13'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/coffee:^2.0'</code></td>
+      <td>^10.2 || ^11.0</td>
     </tr>
     <tr>
       <td>components</td>
-      <td>Makes it easier for a theme to organize its components. It allows themes (and modules) to register Twig namespaces and provides some additional Twig functions and filters for use in Drupal templates.</td>
+      <td>3.2.0</td>
+      <td>Makes it easier for a theme to organize its components by registering Twig namespaces</td>
       <td><a href="https://www.drupal.org/project/components">https://www.drupal.org/project/components</a></td>
-      <td><code>composer require 'drupal/components:3.2.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/components:^3.2'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>contact_block</td>
-      <td>The Contact Block module provides contact forms in a block. It uses the contact forms that can be created using the Drupal 8 core Contact module.</td>
+      <td>2.0.3</td>
+      <td>Provides contact forms in a block using the Drupal core Contact module forms</td>
       <td><a href="https://www.drupal.org/project/contact_block">https://www.drupal.org/project/contact_block</a></td>
-      <td><code>composer require 'drupal/contact_block:2.0.3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/contact_block:^2.0'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>content_access</td>
-      <td>Content Access allows you to manage permissions for content types by role and author. It allows you to specify custom view, edit and delete permissions for each content type. Optionally you can ena...</td>
+      <td>2.0.0</td>
+      <td>Manages permissions for content types by role and author with custom view, edit and delete permissions</td>
       <td><a href="https://www.drupal.org/project/content_access">https://www.drupal.org/project/content_access</a></td>
-      <td><code>composer require 'drupal/content_access:2.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/content_access:^2.1@RC'</code></td>
+      <td>^9.4 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>content_browser</td>
-      <td>Summary This module provides a default Entity Browser that lets you browse and select your Content from a feature-rich View that displays rows in a grid using a new View Mode.</td>
+      <td>8.x-1.1</td>
+      <td>Provides a default Entity Browser for browsing and selecting content from a feature-rich grid view</td>
       <td><a href="https://www.drupal.org/project/content_browser">https://www.drupal.org/project/content_browser</a></td>
-      <td><code>composer require 'drupal/content_browser:3.3.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/content_browser:^1.1'</code></td>
+      <td>^8 || ^9 || ^10</td>
     </tr>
     <tr>
       <td>crop</td>
-      <td>Provides basic API for image cropping. This module won&#039;t do much by itself.</td>
+      <td>8.x-2.5</td>
+      <td>Provides basic API for image cropping that other modules can use</td>
       <td><a href="https://www.drupal.org/project/crop">https://www.drupal.org/project/crop</a></td>
-      <td><code>composer require 'drupal/crop'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/crop:^2.5'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>ctools</td>
-      <td>CTools is a developer toolkit that provides APIs, etc. to improve the developer experience. Most often you don&#039;t install this directly; it&#039;s a dependency of some other module you want.</td>
+      <td>4.0.5</td>
+      <td>A developer toolkit that provides APIs and utilities to improve the developer experience</td>
       <td><a href="https://www.drupal.org/project/ctools">https://www.drupal.org/project/ctools</a></td>
-      <td><code>composer require 'drupal/ctools:4.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/ctools:^4.1'</code></td>
+      <td>^9.3 || ^10</td>
     </tr>
     <tr>
       <td>devel</td>
-      <td>Introduction Devel module contains helper functions and pages for Drupal developers and inquisitive admins: A block and toolbar for quickly accessing devel pages A menu tab added to entities to give a</td>
+      <td>5.5.0</td>
+      <td>Contains helper functions and pages for Drupal developers and inquisitive admins including debug blocks and menu tabs</td>
       <td><a href="https://www.drupal.org/project/devel">https://www.drupal.org/project/devel</a></td>
-      <td><code>composer require 'drupal/devel:5.5.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/devel:^5.5'</code></td>
+      <td>^10.3 || ^11 || ^12</td>
     </tr>
     <tr>
       <td>diff</td>
-      <td>Provides a visual comparison between two content revisions, with options for what to include and how to organize the comparison display.</td>
+      <td>8.x-1.9</td>
+      <td>Provides a visual comparison between two content revisions with customizable display options</td>
       <td><a href="https://www.drupal.org/project/diff">https://www.drupal.org/project/diff</a></td>
-      <td><code>composer require 'drupal/diff:2.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/diff:^1.9'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>domain</td>
-      <td>Drupal 10/11 status Releases in the 2.0.0 series are compatible with Drupal 9.5 and higher. The 2.0.0-beta1 release is a code-only update from 8.x-1.0-beta8.</td>
+      <td></td>
+      <td>Allows managing multiple domains from a single Drupal installation for multi-site configurations</td>
       <td><a href="https://www.drupal.org/project/domain">https://www.drupal.org/project/domain</a></td>
-      <td><code>composer require 'drupal/domain:2.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/domain:^3.0@alpha'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>dropzonejs</td>
-      <td>Drupal integration for DropzoneJS - an open source library that provides drag’n’drop file uploads with image previews.</td>
+      <td>8.x-2.11</td>
+      <td>Drupal integration for DropzoneJS - an open source library providing drag'n'drop file uploads with image previews</td>
       <td><a href="https://www.drupal.org/project/dropzonejs">https://www.drupal.org/project/dropzonejs</a></td>
-      <td><code>composer require 'drupal/dropzonejs:5.9.3'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/dropzonejs:^2.11'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>easy_breadcrumb</td>
-      <td>This module updates the core Breadcrumb block to include the current page title in the breadcrumbs. It comes with settings that are common features needed in crumbs.</td>
+      <td>2.0.9</td>
+      <td>Updates the core Breadcrumb block to include the current page title with configurable settings</td>
       <td><a href="https://www.drupal.org/project/easy_breadcrumb">https://www.drupal.org/project/easy_breadcrumb</a></td>
-      <td><code>composer require 'drupal/easy_breadcrumb:2.0.9'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/easy_breadcrumb:^2.0'</code></td>
+      <td>^9.2 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>eca</td>
-      <td>ECA is the no-code solution that empowers you to orchestrate your Drupal site. ECA is a powerful, versatile, and user-friendly rules engine for Drupal.</td>
+      <td>3.0.9</td>
+      <td>ECA is the no-code solution that empowers you to orchestrate your Drupal site with a powerful rules engine</td>
       <td><a href="https://www.drupal.org/project/eca">https://www.drupal.org/project/eca</a></td>
-      <td><code>composer require 'drupal/eca:1.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/eca:^3.0'</code></td>
+      <td>^11.2</td>
     </tr>
     <tr>
       <td>editor_advanced_link</td>
-      <td>Enhances the link Dialog in CKEditor by allowing the following attributes to be defined: title, class, id, target, rel and more.</td>
+      <td>2.3.3</td>
+      <td>Enhances the CKEditor link dialog by allowing title, class, id, target, rel and other attributes</td>
       <td><a href="https://www.drupal.org/project/editor_advanced_link">https://www.drupal.org/project/editor_advanced_link</a></td>
-      <td><code>composer require 'drupal/editor_advanced_link:2.3.3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/editor_advanced_link:^2.3'</code></td>
+      <td>^10.5 || ^11.2</td>
     </tr>
     <tr>
       <td>entity_browser</td>
-      <td>Provides a flexible and generic entity browsing and selecting tool (using views and other browsers). It can be used to select, reference or embed entities into the editor. Highly configurable and e...</td>
+      <td>8.x-2.15</td>
+      <td>Provides a flexible and generic entity browsing and selecting tool using views and other browsers</td>
       <td><a href="https://www.drupal.org/project/entity_browser">https://www.drupal.org/project/entity_browser</a></td>
-      <td><code>composer require 'drupal/entity_browser'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/entity_browser:^2.15'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>environment_indicator</td>
-      <td>This module will help you know what server environment (production, dev, local, etc) you are working in by adding a configurable color bar to each one of your environments.</td>
+      <td>4.0.25</td>
+      <td>Adds a configurable color bar to indicate what server environment you're working in</td>
       <td><a href="https://www.drupal.org/project/environment_indicator">https://www.drupal.org/project/environment_indicator</a></td>
-      <td><code>composer require 'drupal/environment_indicator:4.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/environment_indicator:^4.1@beta'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>eu_cookie_compliance</td>
-      <td>Provides a GDPR cookie banner where you can gather consent from the user when the website stores cookies on their computer or otherwise handles their personal information.</td>
+      <td>8.x-1.29</td>
+      <td>Provides a GDPR cookie banner for gathering user consent when storing cookies</td>
       <td><a href="https://www.drupal.org/project/eu_cookie_compliance">https://www.drupal.org/project/eu_cookie_compliance</a></td>
-      <td><code>composer require 'drupal/eu_cookie_compliance'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/eu_cookie_compliance:^1.30@RC'</code></td>
+      <td>^8.9 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>extlink</td>
-      <td>Finds all external links on a web page and adds an "external" icon to the link indicating it will take the user offsite or a "mail" icon for mailto: links.</td>
+      <td>2.0.5</td>
+      <td>Finds all external links on a web page and adds an external or mail icon to indicate off-site links</td>
       <td><a href="https://www.drupal.org/project/extlink">https://www.drupal.org/project/extlink</a></td>
-      <td><code>composer require 'drupal/extlink:2.0.5'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/extlink:^2.0'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>fac</td>
-      <td>The Fast Autocomplete module provides fast IMDB-like suggestions below a text input field.</td>
+      <td>2.2.0</td>
+      <td>The Fast Autocomplete module provides fast IMDB-like suggestions below a text input field</td>
       <td><a href="https://www.drupal.org/project/fac">https://www.drupal.org/project/fac</a></td>
-      <td><code>composer require 'drupal/fac:2.2.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/fac:^2.2'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>facets</td>
-      <td>Allows users to add additional filters (facets) to search results, to further refine search results by some criteria (e.g. Amazon&#039;s search interface).</td>
+      <td>3.0.2</td>
+      <td>Allows users to add additional filters (facets) to search results to further refine results</td>
       <td><a href="https://www.drupal.org/project/facets">https://www.drupal.org/project/facets</a></td>
-      <td><code>composer require 'drupal/facets:3.0.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/facets:^3.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>fakeobjects</td>
-      <td>This plugin helps to create a "representative" (image with styles) for certain elements which have problem with living in editable, it provides the API to transform an real DOM element in...</td>
+      <td>2.0.1</td>
+      <td>Plugin to create representative images for certain elements in editable content</td>
       <td><a href="https://www.drupal.org/project/fakeobjects">https://www.drupal.org/project/fakeobjects</a></td>
-      <td><code>composer require 'drupal/fakeobjects:4.5.11'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/fakeobjects:^2.0'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>fast_404</td>
-      <td>Description pending.</td>
+      <td>8.x-3.6</td>
+      <td>Provides fast 404 pages to improve performance and user experience for missing pages</td>
       <td><a href="https://www.drupal.org/project/fast_404">https://www.drupal.org/project/fast_404</a></td>
-      <td><code>composer require 'drupal/fast_404'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/fast_404:^3.6'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>field_formatter_class</td>
-      <td>🇺🇦 This module is maintained by Ukrainian developers. Please consider supporting Ukraine in a fight for their freedom and safety of Europe.</td>
+      <td>8.x-1.8</td>
+      <td>Provides a field formatter to add CSS classes to entity field display</td>
       <td><a href="https://www.drupal.org/project/field_formatter_class">https://www.drupal.org/project/field_formatter_class</a></td>
-      <td><code>composer require 'drupal/field_formatter_class'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/field_formatter_class:^1.8'</code></td>
+      <td>^10.2 || ^11.0</td>
     </tr>
     <tr>
       <td>flexslider</td>
-      <td>Description Flex Slider module integrates the Flex Slider library with Drupal and several contributed modules which allows you to build responsive, resizable slideshows. Meaning the slideshows auto...</td>
+      <td>8.x-2.0</td>
+      <td>Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows</td>
       <td><a href="https://www.drupal.org/project/flexslider">https://www.drupal.org/project/flexslider</a></td>
-      <td><code>composer require 'drupal/flexslider:3.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/flexslider:^2.0'</code></td>
+      <td>^9 || ^10</td>
     </tr>
     <tr>
       <td>focal_point</td>
-      <td>ABOUT Focal Point allows you to specify the portion of an image that is most important.</td>
+      <td>2.1.2</td>
+      <td>Allows you to specify the portion of an image that is most important for cropping</td>
       <td><a href="https://www.drupal.org/project/focal_point">https://www.drupal.org/project/focal_point</a></td>
-      <td><code>composer require 'drupal/focal_point:2.1.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/focal_point:^2.1'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>fontawesome</td>
-      <td>Provides a plugin to use Font Awesome icons directly from the CKEditor. It also allows you to attach icon fields to entities and provides a core media entity type for icons.</td>
+      <td>3.0.0</td>
+      <td>Provides a plugin to use Font Awesome icons directly from CKEditor with icon fields for entities</td>
       <td><a href="https://www.drupal.org/project/fontawesome">https://www.drupal.org/project/fontawesome</a></td>
-      <td><code>composer require 'drupal/fontawesome:4.7.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/fontawesome:^3.0'</code></td>
+      <td>^10.2 || ^11.0</td>
     </tr>
     <tr>
       <td>fontawesome_iconpicker</td>
-      <td>Enhances Core Text Fields to use Fontawesome Iconpicker to select icons. Simply add a text field and choose &#039;Font Awesome iconpicker&#039; as the widget.</td>
+      <td>3.0.0</td>
+      <td>Enhances Core Text Fields to use Fontawesome Iconpicker to select icons</td>
       <td><a href="https://www.drupal.org/project/fontawesome_iconpicker">https://www.drupal.org/project/fontawesome_iconpicker</a></td>
-      <td><code>composer require 'drupal/fontawesome_iconpicker:3.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/fontawesome_iconpicker:^3.0'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>fontawesome_menu_icons</td>
-      <td>Dependencies Font Awesome Font Awesome Icon Picker (Optional) Font Awesome Icon Picker library should be here: /libraries/fontawesome-iconpicker ├── /dist ├── /package.json Versions 3.x This project i</td>
+      <td>3.0.1</td>
+      <td>Adds Font Awesome icons to menu items in Drupal</td>
       <td><a href="https://www.drupal.org/project/fontawesome_menu_icons">https://www.drupal.org/project/fontawesome_menu_icons</a></td>
-      <td><code>composer require 'drupal/fontawesome_menu_icons:3.0.1'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/fontawesome_menu_icons:^3.0'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>geo_location</td>
       <td></td>
+      <td>Provides a field type to store and display geographical locations</td>
       <td><a href="https://www.drupal.org/project/geo_location">https://www.drupal.org/project/geo_location</a></td>
-      <td><code>composer require 'drupal/geo_location'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/geo_location:^3.12'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>geolocation</td>
-      <td>Provides a field type to store geographical locations as pairs of latitude and longitude and the integration to display those locations through views, fields, and map providers.</td>
+      <td>8.x-3.14</td>
+      <td>Provides a field type to store geographical locations as latitude/longitude with display integration</td>
       <td><a href="https://www.drupal.org/project/geolocation">https://www.drupal.org/project/geolocation</a></td>
-      <td><code>composer require 'drupal/geolocation:4.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/geolocation:^4.0@beta'</code></td>
+      <td>^10 || ^11 || ^12</td>
     </tr>
     <tr>
       <td>gin</td>
-      <td>A completely redesigned UI layout, enhanced with features like Darkmode, brings a fresh new look to your Drupal Admin interface. Built on the solid foundation of Claro, it comes from one of the lea...</td>
+      <td>5.0.10</td>
+      <td>A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface</td>
       <td><a href="https://www.drupal.org/project/gin">https://www.drupal.org/project/gin</a></td>
-      <td><code>composer require 'drupal/gin:5.0.10'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/gin:^5.0'</code></td>
+      <td>^11.2</td>
     </tr>
     <tr>
       <td>gin_toolbar</td>
-      <td>Helper module to bring the Gin Toolbar into the Frontend of your site. Requires the Gin Admin Theme. This module is needed due to some technical limitations of Drupal (Admin) themes.</td>
+      <td>3.0.2</td>
+      <td>Helper module to bring the Gin Toolbar into the Frontend of your site</td>
       <td><a href="https://www.drupal.org/project/gin_toolbar">https://www.drupal.org/project/gin_toolbar</a></td>
-      <td><code>composer require 'drupal/gin_toolbar:3.0.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/gin_toolbar:^3.0'</code></td>
+      <td>^11.2</td>
     </tr>
     <tr>
       <td>google_tag</td>
-      <td>Google Tag The 2.0.x branch supports Google Tag and Google Tag Manager. Users of Google Analytics should be using the 2.x version of this module.</td>
+      <td>2.0.9</td>
+      <td>Integrates Google Tag Manager with Drupal for tracking and analytics</td>
       <td><a href="https://www.drupal.org/project/google_tag">https://www.drupal.org/project/google_tag</a></td>
-      <td><code>composer require 'drupal/google_tag:2.0.9'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/google_tag:^2.0'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>gridstack</td>
-      <td>GridStack provides integration with gridstack.js as a dynamic layout creator for both two-dimensional layouts (Masonry, Packery, Isotope, native browser Grid Layout), and linear or one-dimensional lay</td>
+      <td>3.0.3</td>
+      <td>Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts</td>
       <td><a href="https://www.drupal.org/project/gridstack">https://www.drupal.org/project/gridstack</a></td>
-      <td><code>composer require 'drupal/gridstack:1.2.1'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/gridstack:^3.0'</code></td>
+      <td>>=9.4</td>
     </tr>
     <tr>
       <td>honeypot</td>
-      <td>Uses both the honeypot and timestamp strategies to deter spam bots from completing forms on your site. These methods are effective and not as intrusive as CAPTCHAs or other schemes that punish the ...</td>
+      <td>2.2.2</td>
+      <td>Uses honeypot and timestamp strategies to deter spam bots from completing forms</td>
       <td><a href="https://www.drupal.org/project/honeypot">https://www.drupal.org/project/honeypot</a></td>
-      <td><code>composer require 'drupal/honeypot:2.2.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/honeypot:^2.2'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>hreflang</td>
-      <td>Automatically adds an hreflang tag to the page for each enabled language.</td>
+      <td>8.x-1.16</td>
+      <td>Automatically adds hreflang tags to pages for each enabled language</td>
       <td><a href="https://www.drupal.org/project/hreflang">https://www.drupal.org/project/hreflang</a></td>
-      <td><code>composer require 'drupal/hreflang'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/hreflang:^1.16'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>image_effects</td>
-      <td>Adds various visual effects and filters to images, enhancing the aesthetics and creative possibilities for image manipulation and presentation.</td>
+      <td>4.0.0</td>
+      <td>Adds various visual effects and filters to images for enhanced image manipulation</td>
       <td><a href="https://www.drupal.org/project/image_effects">https://www.drupal.org/project/image_effects</a></td>
-      <td><code>composer require 'drupal/image_effects:5.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/image_effects:^5.0@RC'</code></td>
+      <td>^11.3</td>
     </tr>
     <tr>
       <td>image_styles_generator</td>
-      <td>Sometimes we need to warm up images on a site, for example to speed up tests in CI/CD environments.</td>
+      <td>1.3.0</td>
+      <td>Warms up image styles for faster loading and CI/CD environments</td>
       <td><a href="https://www.drupal.org/project/image_styles_generator">https://www.drupal.org/project/image_styles_generator</a></td>
-      <td><code>composer require 'drupal/image_styles_generator:1.3.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/image_styles_generator:^1.3'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>image_url_formatter</td>
-      <td>This module add a url formatter for image field. Then you can output image url directly. Most of the code, maybe more than 90%, is just copy from the drupal core. I think it is stable enough. I hav...</td>
+      <td>2.0.0</td>
+      <td>Adds a URL formatter for image fields to output image URL directly</td>
       <td><a href="https://www.drupal.org/project/image_url_formatter">https://www.drupal.org/project/image_url_formatter</a></td>
-      <td><code>composer require 'drupal/image_url_formatter:2.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/image_url_formatter:^2.0'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>imce</td>
-      <td>A file manager featuring personal directories and quotas.</td>
+      <td>3.1.4</td>
+      <td>A file manager featuring personal directories and quotas for managing files</td>
       <td><a href="https://www.drupal.org/project/imce">https://www.drupal.org/project/imce</a></td>
-      <td><code>composer require 'drupal/imce:3.1.4'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/imce:^3.1'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>inline_entity_form</td>
-      <td>Supported Versions A 2.x Version has been released erroneously, containing multiple regressions and unreviewed commits. This is currently cleaned up in [#]. Help is appreciated. About IEF Provides ...</td>
+      <td></td>
+      <td>Provides a widget for creating and editing entities inline within parent forms</td>
       <td><a href="https://www.drupal.org/project/inline_entity_form">https://www.drupal.org/project/inline_entity_form</a></td>
-      <td><code>composer require 'drupal/inline_entity_form:3.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/inline_entity_form:^3.0@RC'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>jsonapi_boost</td>
-      <td>Improves the performance of the JSON:API module by cache warming your resource types. This project requires Drupal 8.8.</td>
+      <td>2.0.4</td>
+      <td>Improves the performance of the JSON:API module by cache warming resource types</td>
       <td><a href="https://www.drupal.org/project/jsonapi_boost">https://www.drupal.org/project/jsonapi_boost</a></td>
-      <td><code>composer require 'drupal/jsonapi_boost:2.0.4'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/jsonapi_boost:^2.0'</code></td>
+      <td>^9 || ^10</td>
     </tr>
     <tr>
       <td>jsonapi_extras</td>
-      <td>The JSON:API module in code provides zero configuration out of the box. Use JSON:API Extras to customize your API.</td>
+      <td>8.x-3.28</td>
+      <td>Customizes the JSON:API module with configuration options for your API</td>
       <td><a href="https://www.drupal.org/project/jsonapi_extras">https://www.drupal.org/project/jsonapi_extras</a></td>
-      <td><code>composer require 'drupal/jsonapi_extras'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/jsonapi_extras:^3.28'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>jsonapi_include</td>
-      <td>JSON:API Include makes it easy to parse entity references with JSON:API.</td>
+      <td>2.0.0</td>
+      <td>Makes it easy to parse entity references with JSON:API</td>
       <td><a href="https://www.drupal.org/project/jsonapi_include">https://www.drupal.org/project/jsonapi_include</a></td>
-      <td><code>composer require 'drupal/jsonapi_include:2.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/jsonapi_include:^2.0'</code></td>
+      <td>^11.1</td>
     </tr>
     <tr>
       <td>jsonapi_node_preview_tab</td>
-      <td>Adds a tab to nodes that allows a quick preview of the node&#039;s representation as JSON:API.</td>
+      <td>1.0.2</td>
+      <td>Adds a tab to nodes for quick preview of node's JSON:API representation</td>
       <td><a href="https://www.drupal.org/project/jsonapi_node_preview_tab">https://www.drupal.org/project/jsonapi_node_preview_tab</a></td>
-      <td><code>composer require 'drupal/jsonapi_node_preview_tab:1.0.2'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/jsonapi_node_preview_tab:^1.0'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>jsonapi_schema</td>
-      <td>JSON:API Schema provides JSON-Schema formatted schemas for JSON:API resources.</td>
+      <td>8.x-1.0</td>
+      <td>Provides JSON-Schema formatted schemas for JSON:API resources</td>
       <td><a href="https://www.drupal.org/project/jsonapi_schema">https://www.drupal.org/project/jsonapi_schema</a></td>
-      <td><code>composer require 'drupal/jsonapi_schema'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/jsonapi_schema:^1.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>jsonapi_views</td>
-      <td>What does this module do? It creates JSON:API Resource for each Views display, allowing for easy consumption of this data outside of Drupal. When installed the module activates resources for all of...</td>
+      <td>8.x-1.1</td>
+      <td>Creates JSON:API Resource for each Views display for external data consumption</td>
       <td><a href="https://www.drupal.org/project/jsonapi_views">https://www.drupal.org/project/jsonapi_views</a></td>
-      <td><code>composer require 'drupal/jsonapi_views:9.2.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/jsonapi_views:^1.1'</code></td>
+      <td>>=8.8</td>
     </tr>
     <tr>
       <td>juicebox</td>
-      <td>This module provides an integration between the popular Juicebox HTML5 responsive gallery (Javascript) library and Drupal. As of April 2023 we are focusing on developing a stable version of Juicebo...</td>
+      <td></td>
+      <td>Provides integration between the Juicebox HTML5 responsive gallery library and Drupal</td>
       <td><a href="https://www.drupal.org/project/juicebox">https://www.drupal.org/project/juicebox</a></td>
-      <td><code>composer require 'drupal/juicebox:2011.45.33'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/juicebox:^4.0@alpha'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>layout_builder_styles</td>
-      <td>Overview This module allow site builders to select from a list of styles to apply to layout builder blocks and layout builder sections.</td>
+      <td>2.1.0</td>
+      <td>Allows site builders to select from a list of styles to apply to layout builder blocks</td>
       <td><a href="https://www.drupal.org/project/layout_builder_styles">https://www.drupal.org/project/layout_builder_styles</a></td>
-      <td><code>composer require 'drupal/layout_builder_styles:8.'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/layout_builder_styles:^2.1'</code></td>
+      <td>^8.7.7 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>layout_library</td>
-      <td>Overview Provides a layout library allowing content editors to pick from a list of pre-defined layouts.</td>
+      <td></td>
+      <td>Provides a layout library allowing content editors to pick from pre-defined layouts</td>
       <td><a href="https://www.drupal.org/project/layout_library">https://www.drupal.org/project/layout_library</a></td>
-      <td><code>composer require 'drupal/layout_library'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/layout_library:^1.0@beta'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>leaflet</td>
-      <td>Drupal advanced integration with the Leaflet JS mapping library, the leading open-source JavaScript library for mobile-friendly interactive maps.</td>
+      <td>10.3.11</td>
+      <td>Drupal advanced integration with the Leaflet JS mapping library for interactive maps</td>
       <td><a href="https://www.drupal.org/project/leaflet">https://www.drupal.org/project/leaflet</a></td>
-      <td><code>composer require 'drupal/leaflet:10'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/leaflet:^10.3'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>link_attributes</td>
-      <td>Overview Link attributes widget provides an additional widget for the link field found in Drupal core. The widget allows users to set attributes on their link.</td>
+      <td>2.1.2</td>
+      <td>Provides an additional widget for the link field allowing users to set attributes</td>
       <td><a href="https://www.drupal.org/project/link_attributes">https://www.drupal.org/project/link_attributes</a></td>
-      <td><code>composer require 'drupal/link_attributes:2011.07.16'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/link_attributes:^2.1'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>link_icons</td>
-      <td>The Link Icons module is a field formatter for the Link field to display an icon for the service being linked to - ex.</td>
+      <td>3.0.3</td>
+      <td>Field formatter for Link fields to display icons for the linked service</td>
       <td><a href="https://www.drupal.org/project/link_icons">https://www.drupal.org/project/link_icons</a></td>
-      <td><code>composer require 'drupal/link_icons:3.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/link_icons:^3.1@RC'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>linkit</td>
-      <td>Linkit provides an autocomplete functionality for Drupal link interfaces. Linkit supports nodes, users, taxonomy, files/media, and basic support for all types of entities that define a canonical li...</td>
+      <td>7.0.12</td>
+      <td>Provides autocomplete functionality for Drupal link interfaces supporting nodes, users, taxonomy, files</td>
       <td><a href="https://www.drupal.org/project/linkit">https://www.drupal.org/project/linkit</a></td>
-      <td><code>composer require 'drupal/linkit:6.1.7'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/linkit:^7.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>media_bulk_upload</td>
-      <td>This is the Drupal 8 module to bulk upload files and create the media entities automatically for them. It uses DropzoneJS to quickly upload multiple files.</td>
+      <td>3.0.4</td>
+      <td>Drupal module to bulk upload files and create media entities automatically using DropzoneJS</td>
       <td><a href="https://www.drupal.org/project/media_bulk_upload">https://www.drupal.org/project/media_bulk_upload</a></td>
-      <td><code>composer require 'drupal/media_bulk_upload:3.0.4'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/media_bulk_upload:^3.0'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>media_directories</td>
-      <td>Offers an alternative way to browse and pick Medias. UI with full featured jsTree implementation provides directory/folder structure for Media entities, allowing assigning them to folders.</td>
+      <td>2.0.5</td>
+      <td>Alternative way to browse and pick Media with a jsTree-based directory structure</td>
       <td><a href="https://www.drupal.org/project/media_directories">https://www.drupal.org/project/media_directories</a></td>
-      <td><code>composer require 'drupal/media_directories:2.2.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/media_directories:^2.2@beta'</code></td>
+      <td>^9.5 || ^10</td>
     </tr>
     <tr>
       <td>media_entity_download</td>
-      <td>Media entity download solves a content management issue when dealing with files and media. Media entity download will prevent links from breaking when updating or uploading new files.</td>
+      <td>8.x-2.4</td>
+      <td>Prevents links from breaking when updating or uploading new files for media entities</td>
       <td><a href="https://www.drupal.org/project/media_entity_download">https://www.drupal.org/project/media_entity_download</a></td>
-      <td><code>composer require 'drupal/media_entity_download'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/media_entity_download:^2.4'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>media_file_delete</td>
-      <td>Overview Media file delete gives content editors the option to delete the associated file when deleting a media entity.</td>
+      <td>1.3.1</td>
+      <td>Gives content editors option to delete the associated file when deleting a media entity</td>
       <td><a href="https://www.drupal.org/project/media_file_delete">https://www.drupal.org/project/media_file_delete</a></td>
-      <td><code>composer require 'drupal/media_file_delete:206.07.40'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/media_file_delete:^1.3'</code></td>
+      <td>^8.8 || ~9.0 || ~10.0 || ^11</td>
     </tr>
     <tr>
       <td>menu_block</td>
-      <td>Enhance Drupal 8+ core menus with functionality to expand all menu links with children and/or root the menu tree to a specific item.</td>
+      <td>8.x-1.14</td>
+      <td>Enhances Drupal core menus with functionality to expand all menu links with children</td>
       <td><a href="https://www.drupal.org/project/menu_block">https://www.drupal.org/project/menu_block</a></td>
-      <td><code>composer require 'drupal/menu_block'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/menu_block:^1.14'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>metatag</td>
-      <td>Allows generating meta tags for site content, from simpler tags like "description" and "image_src", to more advanced tags like OpenGraph (for Facebook, LinkedIn, etc), Twitter C...</td>
+      <td>2.2.0</td>
+      <td>Allows generating meta tags for site content including OpenGraph, Twitter Cards, and more</td>
       <td><a href="https://www.drupal.org/project/metatag">https://www.drupal.org/project/metatag</a></td>
-      <td><code>composer require 'drupal/metatag:2.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/metatag:^2.2'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>mobile_detect</td>
-      <td>This is a lightweight mobile detection module based on the Mobile_Detect.php library, which can be obtained from the GitHub repository.</td>
+      <td>4.0.0</td>
+      <td>Lightweight mobile detection module based on Mobile_Detect.php library</td>
       <td><a href="https://www.drupal.org/project/mobile_detect">https://www.drupal.org/project/mobile_detect</a></td>
-      <td><code>composer require 'drupal/mobile_detect:3.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/mobile_detect:^4.0'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>monitoring</td>
-      <td>Overview This project introduces a vendor independent framework for deeply monitoring Drupal and all its projects / modules. It provides a 360 degree perspective on Drupal system health, being a cr...</td>
+      <td>8.x-1.20</td>
+      <td>Vendor independent framework for deeply monitoring Drupal and all its projects</td>
       <td><a href="https://www.drupal.org/project/monitoring">https://www.drupal.org/project/monitoring</a></td>
-      <td><code>composer require 'drupal/monitoring:5.1.25'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/monitoring:^1.20'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>oauth_login_oauth2</td>
-      <td>Description pending.</td>
+      <td>3.0.18</td>
+      <td>Provides OAuth2 login functionality for Drupal</td>
       <td><a href="https://www.drupal.org/project/oauth_login_oauth2">https://www.drupal.org/project/oauth_login_oauth2</a></td>
-      <td><code>composer require 'drupal/oauth_login_oauth2'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/oauth_login_oauth2:^3.0'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>openai</td>
-      <td>See ----&gt; AI Initiative Most new development and additions will be happening at the new AI module, a one stop solution and framework for all things AI in Drupal.</td>
+      <td></td>
+      <td>AI module framework for integrating OpenAI and other AI services with Drupal</td>
       <td><a href="https://www.drupal.org/project/openai">https://www.drupal.org/project/openai</a></td>
-      <td><code>composer require 'drupal/openai:203.31.05'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/openai:^1.0@beta'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>pathauto</td>
-      <td>The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias.</td>
+      <td>8.x-1.14</td>
+      <td>Automatically generates URL/path aliases for content without requiring manual specification</td>
       <td><a href="https://www.drupal.org/project/pathauto">https://www.drupal.org/project/pathauto</a></td>
-      <td><code>composer require 'drupal/pathauto'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/pathauto:^1.14'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>photoswipe</td>
-      <td>Use PhotoSwipe to display picture galleries on your Drupal website. This Javascript lightbox library offers very nice mobile browsing features (in particular swiping to the next picture)!</td>
+      <td>5.0.6</td>
+      <td>Displays picture galleries using PhotoSwipe JavaScript lightbox library with mobile browsing features</td>
       <td><a href="https://www.drupal.org/project/photoswipe">https://www.drupal.org/project/photoswipe</a></td>
-      <td><code>composer require 'drupal/photoswipe:5.3.8'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/photoswipe:^5.0'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>project_browser</td>
-      <td>Allows site builders to easily find and install modules. This browser lives inside the Drupal site itself, which means you don&#039;t need to leave your site in order to do so.</td>
+      <td>2.1.3</td>
+      <td>Allows site builders to easily find and install modules from within Drupal admin</td>
       <td><a href="https://www.drupal.org/project/project_browser">https://www.drupal.org/project/project_browser</a></td>
-      <td><code>composer require 'drupal/project_browser:2.1.3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/project_browser:^2.1'</code></td>
+      <td>^11.2</td>
     </tr>
     <tr>
       <td>pwa</td>
-      <td>Progressive Web Apps provide a native-like experience using web technology. They are reliable, fast, and engaging, resulting in a robust offline experience that can be saved to homescreen.</td>
+      <td>8.x-1.7</td>
+      <td>Progressive Web Apps providing native-like experience with offline capability and homescreen installation</td>
       <td><a href="https://www.drupal.org/project/pwa">https://www.drupal.org/project/pwa</a></td>
-      <td><code>composer require 'drupal/pwa:2.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/pwa:^2.1@beta'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>quick_node_clone</td>
-      <td>Enables cloning of nodes by adding a "Clone" tab to a node. When this tab is clicked, a new node is created and fields from the previous node are populated into the new fields.</td>
+      <td>8.x-1.22</td>
+      <td>Enables cloning of nodes by adding a Clone tab that creates a new node with populated fields</td>
       <td><a href="https://www.drupal.org/project/quick_node_clone">https://www.drupal.org/project/quick_node_clone</a></td>
-      <td><code>composer require 'drupal/quick_node_clone'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/quick_node_clone:^1.22'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>rabbit_hole</td>
-      <td>Rabbit Hole allows control over display of content on its own page, such as blocking access to own page of content that is intended to only be displayed in a view or carousel.</td>
+      <td>8.x-1.0</td>
+      <td>Controls display of content on its own page by blocking access to content</td>
       <td><a href="https://www.drupal.org/project/rabbit_hole">https://www.drupal.org/project/rabbit_hole</a></td>
-      <td><code>composer require 'drupal/rabbit_hole:2.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/rabbit_hole:^2.0@beta'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>radix</td>
-      <td>Radix is the original component-based theme for Drupal. With Bootstrap 5, Sass, ES6, BrowserSync, BiomeJS built-in. Radix started to shift towards component-driven theming with its Drupal 7 theme w...</td>
+      <td>8.x-4.15</td>
+      <td>Component-based theme for Drupal with Bootstrap 5, Sass, ES6, BrowserSync built-in</td>
       <td><a href="https://www.drupal.org/project/radix">https://www.drupal.org/project/radix</a></td>
-      <td><code>composer require 'drupal/radix:6.0.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/radix:^4.15'</code></td>
+      <td>^8.7.7 || ^9.0 || ^10.0 || ^11</td>
     </tr>
     <tr>
       <td>radix_layouts</td>
-      <td>Responsive panels layouts.</td>
+      <td>8.x-5.0</td>
+      <td>Responsive panels layouts for Radix theme</td>
       <td><a href="https://www.drupal.org/project/radix_layouts">https://www.drupal.org/project/radix_layouts</a></td>
-      <td><code>composer require 'drupal/radix_layouts'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/radix_layouts:^5.0'</code></td>
+      <td>^8 || ^9 || ^10</td>
     </tr>
     <tr>
       <td>recaptcha</td>
-      <td>Uses the reCAPTCHA web service to improve the CAPTCHA system. Tough on bots. Easy on humans.</td>
+      <td>8.x-3.4</td>
+      <td>Uses the reCAPTCHA web service to improve the CAPTCHA system</td>
       <td><a href="https://www.drupal.org/project/recaptcha">https://www.drupal.org/project/recaptcha</a></td>
-      <td><code>composer require 'drupal/recaptcha'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/recaptcha:^3.4'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>redirect</td>
-      <td>Provides the ability to create manual redirects and maintain a canonical URL for all content, redirecting all other requests to that path.</td>
+      <td>8.x-1.12</td>
+      <td>Creates manual redirects and maintains canonical URLs for all content</td>
       <td><a href="https://www.drupal.org/project/redirect">https://www.drupal.org/project/redirect</a></td>
-      <td><code>composer require 'drupal/redirect'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/redirect:^1.12'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>redirect_after_login</td>
-      <td>Description pending.</td>
+      <td>3.0.2</td>
+      <td>Redirects users to a specified page after login</td>
       <td><a href="https://www.drupal.org/project/redirect_after_login">https://www.drupal.org/project/redirect_after_login</a></td>
-      <td><code>composer require 'drupal/redirect_after_login'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/redirect_after_login:^3.0'</code></td>
+      <td>^10.3 || ^11.0</td>
     </tr>
     <tr>
       <td>redis</td>
-      <td>Integration of Drupal with the Redis key-value store as well as compatible alternatives/forks such as Valkey. It provides cache, lock, flood and queue backends and a cache performance report.</td>
+      <td>8.x-1.11</td>
+      <td>Integration of Drupal with Redis key-value store providing cache, lock, flood and queue backends</td>
       <td><a href="https://www.drupal.org/project/redis">https://www.drupal.org/project/redis</a></td>
-      <td><code>composer require 'drupal/redis:2.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/redis:^2.0@alpha'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>restrict_ip</td>
-      <td>Concept This module allows administrators to restrict access to the site to an administrator defined set of IP addresses.</td>
+      <td>5.0.1</td>
+      <td>Allows administrators to restrict access to the site to defined IP addresses</td>
       <td><a href="https://www.drupal.org/project/restrict_ip">https://www.drupal.org/project/restrict_ip</a></td>
-      <td><code>composer require 'drupal/restrict_ip:127.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/restrict_ip:^5.0'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>robotstxt</td>
-      <td>Use this module when you are running multiple Drupal sites from a single code base (multisite) and you need a different robots.txt file for each one.</td>
+      <td>8.x-1.6</td>
+      <td>Manages robots.txt file for Drupal multisite installations</td>
       <td><a href="https://www.drupal.org/project/robotstxt">https://www.drupal.org/project/robotstxt</a></td>
-      <td><code>composer require 'drupal/robotstxt'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/robotstxt:^1.6'</code></td>
+      <td>^9.3 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>sam</td>
-      <td>Lullabot-sponsored project This module is sponsored by Lullabot, and we keep a special eye on its maintenance. Read the Architecture Decision Record on why we use this module.</td>
+      <td>1.3.2</td>
+      <td>Lullabot-sponsored module for advanced site administration</td>
       <td><a href="https://www.drupal.org/project/sam">https://www.drupal.org/project/sam</a></td>
-      <td><code>composer require 'drupal/sam:1.3.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/sam:^1.3'</code></td>
+      <td>^9.2 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>scheduler</td>
-      <td>Gives editors the ability to schedule content, media, commerce products and taxonomy terms for publishing and unpublishing at specified dates and times in the future.</td>
+      <td>8.x-1.6</td>
+      <td>Gives editors ability to schedule content, media, and products for publishing at specified dates</td>
       <td><a href="https://www.drupal.org/project/scheduler">https://www.drupal.org/project/scheduler</a></td>
-      <td><code>composer require 'drupal/scheduler:2.2.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/scheduler:^1.6'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>schema_metatag</td>
-      <td>This project extends Drupal&#039;s Metatag module to display structured data as JSON LD in the head of web pages. Read more about Schema.org, JSON LD, and how this module works in an article on Lul...</td>
+      <td>3.0.3</td>
+      <td>Extends Metatag module to display structured data as JSON LD</td>
       <td><a href="https://www.drupal.org/project/schema_metatag">https://www.drupal.org/project/schema_metatag</a></td>
-      <td><code>composer require 'drupal/schema_metatag:3.0.3'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/schema_metatag:^3.0'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>search404</td>
-      <td>Description pending.</td>
+      <td>2.1.2</td>
+      <td>Handles 404 pages with search functionality</td>
       <td><a href="https://www.drupal.org/project/search404">https://www.drupal.org/project/search404</a></td>
-      <td><code>composer require 'drupal/search404'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/search404:^2.2@RC'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>seckit</td>
-      <td>SecKit provides Drupal with various security-hardening options. This lets your mitigate the risks of exploitation of different web application vulnerabilities. SecKit facilitates certain mitigation...</td>
+      <td>2.0.3</td>
+      <td>Provides Drupal with various security-hardening options to mitigate web application vulnerabilities</td>
       <td><a href="https://www.drupal.org/project/seckit">https://www.drupal.org/project/seckit</a></td>
-      <td><code>composer require 'drupal/seckit:2.0.3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/seckit:^2.0'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>security_review</td>
-      <td>The Security Review module automates testing for many of the easy-to-make mistakes that render your site insecure. Get started easily It&#039;s quick and easy to get started.</td>
+      <td>3.1.2</td>
+      <td>Automates testing for easy-to-make mistakes that render your site insecure</td>
       <td><a href="https://www.drupal.org/project/security_review">https://www.drupal.org/project/security_review</a></td>
-      <td><code>composer require 'drupal/security_review:3.1.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/security_review:^3.1'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>semanticviews</td>
-      <td>This Views plugin makes unformatted styles, field row styles and other output more readily configurable without needing to override template files.</td>
+      <td>3.1.0</td>
+      <td>Makes unformatted views styles more readily configurable without template overrides</td>
       <td><a href="https://www.drupal.org/project/semanticviews">https://www.drupal.org/project/semanticviews</a></td>
-      <td><code>composer require 'drupal/semanticviews:3.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/semanticviews:^3.1'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>seo_checklist</td>
-      <td>The Drupal SEO Checklist uses best practices to check your website for proper search engine optimization. It eliminates guesswork by creating a functional to-do list of modules and tasks that remain.</td>
+      <td>5.2.4</td>
+      <td>Uses best practices to check your website for proper search engine optimization</td>
       <td><a href="https://www.drupal.org/project/seo_checklist">https://www.drupal.org/project/seo_checklist</a></td>
-      <td><code>composer require 'drupal/seo_checklist:2012.10.20'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/seo_checklist:^5.2'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>simple_gmap</td>
-      <td>This module is about the simplest way to get a Google Map, and/or a link to a Google Map, displayed with your content. It provides a field formatter for Drupal plain text fields (it can also be use...</td>
+      <td>4.0.0</td>
+      <td>Simplest way to get a Google Map displayed with your content</td>
       <td><a href="https://www.drupal.org/project/simple_gmap">https://www.drupal.org/project/simple_gmap</a></td>
-      <td><code>composer require 'drupal/simple_gmap:4.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/simple_gmap:^4.0'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>simple_sitemap</td>
-      <td>Generates standard-compliant hreflang XML sitemaps to enhance your site&#039;s SEO, notifies search engines of website changes via IndexNow and sitemap ping protocols, and provides a framework for ...</td>
+      <td>4.2.3</td>
+      <td>Generates standard-compliant hreflang XML sitemaps for SEO with IndexNow support</td>
       <td><a href="https://www.drupal.org/project/simple_sitemap">https://www.drupal.org/project/simple_sitemap</a></td>
-      <td><code>composer require 'drupal/simple_sitemap:4.2.3'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/simple_sitemap:^4.2'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>site_audit</td>
-      <td>Site Audit is a Drupal static site analysis platform that generates reports with actionable best practice recommendations.</td>
+      <td>4.1.1</td>
+      <td>Drupal static site analysis platform generating reports with actionable recommendations</td>
       <td><a href="https://www.drupal.org/project/site_audit">https://www.drupal.org/project/site_audit</a></td>
-      <td><code>composer require 'drupal/site_audit:203.05.56'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/site_audit:^4.1'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>sitemap</td>
-      <td>A way for visitors to navigate your website using an overview of notable pages on the site, by displaying one or more human-readable lists of links on a page. Useful for sites with lots of lightly-...</td>
+      <td>8.x-2.5</td>
+      <td>Provides a way for visitors to navigate your website using an overview of notable pages</td>
       <td><a href="https://www.drupal.org/project/sitemap">https://www.drupal.org/project/sitemap</a></td>
-      <td><code>composer require 'drupal/sitemap'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/sitemap:^2.5'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>sitewide_alert</td>
-      <td>The Sitewide Alert module adds the ability to show alerts at the top of your site.</td>
+      <td>3.0.1</td>
+      <td>Adds ability to show alerts at the top of your site</td>
       <td><a href="https://www.drupal.org/project/sitewide_alert">https://www.drupal.org/project/sitewide_alert</a></td>
-      <td><code>composer require 'drupal/sitewide_alert:3.1.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/sitewide_alert:^3.1@beta'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>smart_date</td>
-      <td>This module attempts to provide a more user-friendly date field, by upgrading the functionality of core in a number of ways: Easy Admin UI: Includes the concept of duration, so that a field can have a</td>
+      <td>4.2.4</td>
+      <td>Provides a more user-friendly date field with duration concept and easy admin UI</td>
       <td><a href="https://www.drupal.org/project/smart_date">https://www.drupal.org/project/smart_date</a></td>
-      <td><code>composer require 'drupal/smart_date:207.09.10'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/smart_date:^4.2'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>smart_trim</td>
-      <td>Enables a "smart trimmed" option which lets you control trim length, trim measurement (characters or words), optional suffix, displaying optional "More" link and removing HTML t...</td>
+      <td>2.2.0</td>
+      <td>Enables smart trimmed option controlling trim length, measurement, suffix and more link</td>
       <td><a href="https://www.drupal.org/project/smart_trim">https://www.drupal.org/project/smart_trim</a></td>
-      <td><code>composer require 'drupal/smart_trim:2.2.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/smart_trim:^2.2'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>social_login</td>
-      <td>Social Login is a free Drupal module that allows your users to register and login to your Drupal website with their existing accounts from 35+ social networks like for example Twitter, Facebook, Linke</td>
+      <td>8.x-2.89</td>
+      <td>Allows users to register and login with existing social network accounts</td>
       <td><a href="https://www.drupal.org/project/social_login">https://www.drupal.org/project/social_login</a></td>
-      <td><code>composer require 'drupal/social_login:3.2.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/social_login:^2.89'</code></td>
+      <td>^8 || ^9 || ^10</td>
     </tr>
     <tr>
       <td>social_media_links</td>
-      <td>The modules provides a configurable block that display links (icons) to your profiles on various popular networking sites.</td>
+      <td>8.x-2.10</td>
+      <td>Provides a configurable block displaying links to social media profiles</td>
       <td><a href="https://www.drupal.org/project/social_media_links">https://www.drupal.org/project/social_media_links</a></td>
-      <td><code>composer require 'drupal/social_media_links'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/social_media_links:^2.10'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>styleguide</td>
-      <td>Provides a visual testing page for Drupal themes. Quickly compare the display of common elements across your themes, and verify that your new theme addresses all common style elements.</td>
+      <td>2.2.0</td>
+      <td>Provides a visual testing page for Drupal themes to compare display of common elements</td>
       <td><a href="https://www.drupal.org/project/styleguide">https://www.drupal.org/project/styleguide</a></td>
-      <td><code>composer require 'drupal/styleguide:2.2.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/styleguide:^2.2'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>taxonomy_formatter</td>
-      <td>This is a small module written to provide a custom formatter for taxonomy items. The default formatters both output the terms wrapped in divs.</td>
+      <td>8.x-1.4</td>
+      <td>Provides a custom formatter for taxonomy items with better HTML output</td>
       <td><a href="https://www.drupal.org/project/taxonomy_formatter">https://www.drupal.org/project/taxonomy_formatter</a></td>
-      <td><code>composer require 'drupal/taxonomy_formatter'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/taxonomy_formatter:^1.4'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>terms_of_use</td>
-      <td>This module adds Terms of Use and a [x] I agree check box to the registration page. Use this module if you can&#039;t launch your commercial site without: [x] I agree.</td>
+      <td>8.x-2.4</td>
+      <td>Adds Terms of Use and agreement checkbox to the registration page</td>
       <td><a href="https://www.drupal.org/project/terms_of_use">https://www.drupal.org/project/terms_of_use</a></td>
-      <td><code>composer require 'drupal/terms_of_use'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/terms_of_use:^2.4'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>tinypng</td>
-      <td>Provides TinyPNG integration. What does TinyPNG do? TinyPNG uses smart lossy compression techniques to reduce the file size of your PNG files.</td>
+      <td>2.0.0</td>
+      <td>Provides TinyPNG integration for lossy PNG compression</td>
       <td><a href="https://www.drupal.org/project/tinypng">https://www.drupal.org/project/tinypng</a></td>
-      <td><code>composer require 'drupal/tinypng:1.3.1'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/tinypng:^2.0'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>token</td>
-      <td>Provides placeholder variables (tokens) and an interface for browsing available tokens. As records are displayed, contextual values are replaced, such as [node:title] or [user:name].</td>
+      <td>8.x-1.16</td>
+      <td>Provides placeholder variables (tokens) and interface for browsing available tokens</td>
       <td><a href="https://www.drupal.org/project/token">https://www.drupal.org/project/token</a></td>
-      <td><code>composer require 'drupal/token'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/token:^1.16'</code></td>
+      <td>^9.2 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>token_filter</td>
-      <td>A Drupal module that lets you use special placeholders (tokens) as filters.</td>
+      <td>2.2.1</td>
+      <td>Lets you use special placeholders (tokens) as filters in text fields</td>
       <td><a href="https://www.drupal.org/project/token_filter">https://www.drupal.org/project/token_filter</a></td>
-      <td><code>composer require 'drupal/token_filter:2.2.1'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/token_filter:^2.2'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>twitter_block</td>
-      <td>Twitter Block is a lightweight module which allows administrators to create blocks which display embedded timelines.</td>
+      <td>4.0.0</td>
+      <td>Lightweight module to create blocks which display embedded Twitter timelines</td>
       <td><a href="https://www.drupal.org/project/twitter_block">https://www.drupal.org/project/twitter_block</a></td>
-      <td><code>composer require 'drupal/twitter_block:4.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/twitter_block:^4.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>type_tray</td>
-      <td>Lullabot-sponsored project This module is sponsored by Lullabot, and we keep a special eye on its maintenance. Read the Architecture Decision Record on why we use this module.</td>
+      <td>1.3.2</td>
+      <td>Lullabot-sponsored project for enhanced content type management</td>
       <td><a href="https://www.drupal.org/project/type_tray">https://www.drupal.org/project/type_tray</a></td>
-      <td><code>composer require 'drupal/type_tray:1.3.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/type_tray:^1.3'</code></td>
+      <td>^9.2 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>uli_custom_workflow</td>
-      <td>A ULI is a unique login-link, it looks like /user/reset/1/123/ABC/login and it is generated when you forget your password or using `drush uli`.</td>
+      <td>2.0.0</td>
+      <td>Custom workflow for unique login-links (ULI) in Drupal</td>
       <td><a href="https://www.drupal.org/project/uli_custom_workflow">https://www.drupal.org/project/uli_custom_workflow</a></td>
-      <td><code>composer require 'drupal/uli_custom_workflow:2.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/uli_custom_workflow:^2.0'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>ultimate_cron</td>
-      <td>The Ultimate Cron handling for Drupal. Runs cron jobs individually in parallel using configurable rules, pool management and load balancing.</td>
+      <td></td>
+      <td>Ultimate Cron handling for Drupal running jobs individually in parallel</td>
       <td><a href="https://www.drupal.org/project/ultimate_cron">https://www.drupal.org/project/ultimate_cron</a></td>
-      <td><code>composer require 'drupal/ultimate_cron:207.01.57'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/ultimate_cron:^2.0@beta'</code></td>
+      <td>^9.3 || ^10.1 || ^11</td>
     </tr>
     <tr>
       <td>upgrade_status</td>
-      <td>Review Drupal major upgrade readiness of the environment and components of the site.</td>
+      <td>4.3.8</td>
+      <td>Reviews Drupal major upgrade readiness of the environment and components</td>
       <td><a href="https://www.drupal.org/project/upgrade_status">https://www.drupal.org/project/upgrade_status</a></td>
-      <td><code>composer require 'drupal/upgrade_status:4.3.8'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/upgrade_status:^4.3'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>url_embed</td>
-      <td>URL Embed allows URLs to be embedded within a text area using a WYSIWYG editor or stored and rendered via link fields.</td>
+      <td>3.0.0</td>
+      <td>Allows URLs to be embedded within text areas using WYSIWYG editor</td>
       <td><a href="https://www.drupal.org/project/url_embed">https://www.drupal.org/project/url_embed</a></td>
-      <td><code>composer require 'drupal/url_embed:3.0.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/url_embed:^3.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>video_embed_facebook</td>
-      <td>An integration for Facebook videos into Video Embed Field.</td>
+      <td>2.0.0</td>
+      <td>Integration for Facebook videos into Video Embed Field</td>
       <td><a href="https://www.drupal.org/project/video_embed_facebook">https://www.drupal.org/project/video_embed_facebook</a></td>
-      <td><code>composer require 'drupal/video_embed_facebook:2.0.0'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/video_embed_facebook:^2.0'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>video_embed_field</td>
-      <td>Video Embed field creates a simple field type that allows you to embed videos from YouTube and Vimeo and show their thumbnail previews simply by entering the video&#039;s url.</td>
+      <td>8.x-2.7</td>
+      <td>Creates a simple field type to embed videos from YouTube and Vimeo with thumbnails</td>
       <td><a href="https://www.drupal.org/project/video_embed_field">https://www.drupal.org/project/video_embed_field</a></td>
-      <td><code>composer require 'drupal/video_embed_field:3.'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/video_embed_field:^3.0'</code></td>
+      <td>^9.2 || ^10</td>
     </tr>
     <tr>
       <td>views_bootstrap</td>
-      <td>Views Bootstrap module enables you to create components following the theme structure of the Bootstrap framework all within the configuration settings of the powerful Views module.</td>
+      <td>5.3.3</td>
+      <td>Creates Bootstrap components within Views configuration settings</td>
       <td><a href="https://www.drupal.org/project/views_bootstrap">https://www.drupal.org/project/views_bootstrap</a></td>
-      <td><code>composer require 'drupal/views_bootstrap:5.4.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/views_bootstrap:^5.3'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>views_bulk_edit</td>
-      <td>Allows bulk updating of entity values via views bulk actions. By default it is configured for nodes but can be configured for other entity types.</td>
+      <td>3.0.0</td>
+      <td>Allows bulk updating of entity values via views bulk actions</td>
       <td><a href="https://www.drupal.org/project/views_bulk_edit">https://www.drupal.org/project/views_bulk_edit</a></td>
-      <td><code>composer require 'drupal/views_bulk_edit:201.54.52'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/views_bulk_edit:^3.0'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>views_field_view</td>
-      <td>There are a lot of cases in views where you want to embed a list inside each row.</td>
+      <td></td>
+      <td>Embeds a list inside each row of another view</td>
       <td><a href="https://www.drupal.org/project/views_field_view">https://www.drupal.org/project/views_field_view</a></td>
-      <td><code>composer require 'drupal/views_field_view'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/views_field_view:^1.0@beta'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>views_ical</td>
-      <td>This module allows to create iCal feeds with Views using Fields row style. It comes with two view display options.</td>
+      <td></td>
+      <td>Creates iCal feeds with Views using Fields row style</td>
       <td><a href="https://www.drupal.org/project/views_ical">https://www.drupal.org/project/views_ical</a></td>
-      <td><code>composer require 'drupal/views_ical'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/views_ical:^1.0@alpha'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>views_infinite_scroll</td>
-      <td>Views infinite scroll allows you to load and display pages of any view inline, using AJAX (this has been called infinite scrolling, load more, autopaging, endless pages and more).</td>
+      <td>2.0.3</td>
+      <td>Loads and displays pages of any view inline using AJAX</td>
       <td><a href="https://www.drupal.org/project/views_infinite_scroll">https://www.drupal.org/project/views_infinite_scroll</a></td>
-      <td><code>composer require 'drupal/views_infinite_scroll:2.0.3'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/views_infinite_scroll:^2.0'</code></td>
+      <td>^10.1 || ^11</td>
     </tr>
     <tr>
       <td>views_json_source</td>
-      <td>Views Json Source is an extension of views module to work with external JSON data. Any JSON API can be configured to render the data directly from the JSON through views.</td>
+      <td>2.0.2</td>
+      <td>Extension of views module to work with external JSON data through views</td>
       <td><a href="https://www.drupal.org/project/views_json_source">https://www.drupal.org/project/views_json_source</a></td>
-      <td><code>composer require 'drupal/views_json_source:2.0.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/views_json_source:^2.0'</code></td>
+      <td>^8.8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>views_timelinejs</td>
-      <td>This module adds a new style plugin for Views which renders result rows as TimelineJS slides and eras.</td>
+      <td>4.2.2</td>
+      <td>Renders result rows as TimelineJS slides and eras</td>
       <td><a href="https://www.drupal.org/project/views_timelinejs">https://www.drupal.org/project/views_timelinejs</a></td>
-      <td><code>composer require 'drupal/views_timelinejs:4.2.2'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/views_timelinejs:^4.2'</code></td>
+      <td>^10 || ^11</td>
     </tr>
     <tr>
       <td>webform</td>
-      <td>Build forms to collect data from site visitors. Create everything from a simple contact form to a multi-page form with many fields, conditional logic, and email notifications.</td>
+      <td>6.2.9</td>
+      <td>Build forms to collect data from site visitors with conditional logic and email notifications</td>
       <td><a href="https://www.drupal.org/project/webform">https://www.drupal.org/project/webform</a></td>
-      <td><code>composer require 'drupal/webform:6.2.0'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/webform:^6.3@beta'</code></td>
+      <td>^10.3 || ^11.0</td>
     </tr>
     <tr>
       <td>webp</td>
-      <td>Creates a WebP copy of image style derivatives to decrease loading times.</td>
+      <td></td>
+      <td>Creates a WebP copy of image style derivatives to decrease loading times</td>
       <td><a href="https://www.drupal.org/project/webp">https://www.drupal.org/project/webp</a></td>
-      <td><code>composer require 'drupal/webp'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/webp:^1.0@RC'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>weight</td>
-      <td>Drupal 10/11 version Provides a weight field that can be added to any fieldable entity. The weight field can be used to provide customized sorting.</td>
+      <td>8.x-3.6</td>
+      <td>Provides a weight field that can be added to any fieldable entity for customized sorting</td>
       <td><a href="https://www.drupal.org/project/weight">https://www.drupal.org/project/weight</a></td>
-      <td><code>composer require 'drupal/weight'</code></td>
-      <td>^10</td>
+      <td><code>composer require 'drupal/weight:^3.6'</code></td>
+      <td>^9.5 || ^10.2 || ^11.0</td>
     </tr>
     <tr>
       <td>yoast_seo</td>
-      <td>Improve your Drupal SEO: this module helps you optimize content around keywords in a fast, natural, non-spam way. We want to give you the best tools available in the Drupal community.</td>
+      <td>8.x-2.2</td>
+      <td>Improves Drupal SEO by helping optimize content around keywords</td>
       <td><a href="https://www.drupal.org/project/yoast_seo">https://www.drupal.org/project/yoast_seo</a></td>
-      <td><code>composer require 'drupal/yoast_seo'</code></td>
-      <td>^11</td>
+      <td><code>composer require 'drupal/yoast_seo:^2.2'</code></td>
+      <td>^8 || ^9 || ^10 || ^11</td>
     </tr>
   </tbody>
 </table>
