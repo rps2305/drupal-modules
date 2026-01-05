@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repo is a curated list of Drupal contrib modules. The primary sources live in `README.md` (human-readable table) and `README.com` (pipe-separated, machine-readable rows). Specs and checklists for content updates live in `specs/` and describe the expected data fields and formatting. Keep module entries consistent across both README files, with `README.com` treated as the source of truth for updates and `README.md` regenerated from it.
+This repo is a curated list of Drupal contrib modules. The primary source lives in `README.md` (human-readable table). Specs and checklists for content updates live in `specs/` and describe the expected data fields and formatting.
 
 ## Build, Test, and Development Commands
 There is no build system or automated test suite in this repository. Updates are made by editing Markdown/pipe-separated files directly.
@@ -10,8 +10,8 @@ There is no build system or automated test suite in this repository. Updates are
 
 ## Coding Style & Naming Conventions
 - Use Markdown headings and tables in `README.md`.
-- Use pipe-separated rows in `README.com` with the format: `module_name | latest_stable | description | composer require 'drupal/name:^x.y' | ^10 || ^11 | url`.
-- Composer constraints should follow the Drupal.org install snippet (major/minor only), e.g., `^2.0` not `^2.0.4`. Pre-release constraints may use `@alpha`, `@beta`, or `@RC` when no stable release exists.
+- Use the table in `README.md` with the columns: projectname, latest release, description, project page, composer install, works with Drupal.
+- Composer constraints should follow the Drupal.org install snippet (major/minor only), e.g., `^2.0` not `^2.0.4`. Pre-release constraints may use `@alpha`, `@beta`, or `@RC`.
 - Keep module names lowercase and Drupal.org URLs canonical (e.g., `https://www.drupal.org/project/pathauto`).
 - Prefer ASCII text; escape special characters in HTML table cells where needed.
 
@@ -31,9 +31,8 @@ Do not add secrets or environment-specific configuration. This repo is documenta
 
 ## Task for the coding assistant
 - Get all modules listed in the README files.
-- For each module, fetch the latest stable release version from Drupal.org and store it in the `latest_stable` column in README.com. Leave it blank when no stable release exists.
+- For each module, fetch the latest release version from Drupal.org and store it in the `latest release` column in `README.md`.
 - Ensure the new column is properly formatted and aligned with existing data.
 - Use the Drupal.org install snippet format for the composer command (major/minor constraint). Prefer a Drupal 11-compatible release when available.
 - Fetch the Works with Drupal version and keep it current.
-- Regenerate the `README.md` HTML table from `README.com` so both stay in sync.
 - Ensure all data is accurate and up-to-date.

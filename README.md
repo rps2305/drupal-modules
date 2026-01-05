@@ -5,7 +5,7 @@ My favourite Drupal modules
   <thead>
     <tr>
       <th>projectname</th>
-      <th>Latest stable</th>
+      <th>Latest release</th>
       <th>Description</th>
       <th>Projectpage</th>
       <th>composer install</th>
@@ -39,11 +39,11 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>advagg</td>
-      <td>8.x-2.2</td>
+      <td>6.0.0-alpha1</td>
       <td>Aggregates CSS and JS files for improved page load performance with advanced aggregation options</td>
       <td><a href="https://www.drupal.org/project/advagg">https://www.drupal.org/project/advagg</a></td>
-      <td><code>composer require 'drupal/advagg:^2.2'</code></td>
-      <td>8.x</td>
+      <td><code>composer require 'drupal/advagg:^6.0@alpha'</code></td>
+      <td>^9.3 || ^10</td>
     </tr>
     <tr>
       <td>alogin</td>
@@ -199,7 +199,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>content_access</td>
-      <td>2.0.0</td>
+      <td>2.1.0-rc1</td>
       <td>Manages permissions for content types by role and author with custom view, edit and delete permissions</td>
       <td><a href="https://www.drupal.org/project/content_access">https://www.drupal.org/project/content_access</a></td>
       <td><code>composer require 'drupal/content_access:^2.1@RC'</code></td>
@@ -247,7 +247,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>domain</td>
-      <td></td>
+      <td>3.0.0-alpha14</td>
       <td>Allows managing multiple domains from a single Drupal installation for multi-site configurations</td>
       <td><a href="https://www.drupal.org/project/domain">https://www.drupal.org/project/domain</a></td>
       <td><code>composer require 'drupal/domain:^3.0@alpha'</code></td>
@@ -295,7 +295,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>environment_indicator</td>
-      <td>4.0.25</td>
+      <td>4.1.0-beta1</td>
       <td>Adds a configurable color bar to indicate what server environment you're working in</td>
       <td><a href="https://www.drupal.org/project/environment_indicator">https://www.drupal.org/project/environment_indicator</a></td>
       <td><code>composer require 'drupal/environment_indicator:^4.1@beta'</code></td>
@@ -303,7 +303,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>eu_cookie_compliance</td>
-      <td>8.x-1.29</td>
+      <td>8.x-1.30-rc2</td>
       <td>Provides a GDPR cookie banner for gathering user consent when storing cookies</td>
       <td><a href="https://www.drupal.org/project/eu_cookie_compliance">https://www.drupal.org/project/eu_cookie_compliance</a></td>
       <td><code>composer require 'drupal/eu_cookie_compliance:^1.30@RC'</code></td>
@@ -359,10 +359,10 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>flexslider</td>
-      <td>8.x-2.0</td>
+      <td>3.0.0-alpha1</td>
       <td>Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows</td>
       <td><a href="https://www.drupal.org/project/flexslider">https://www.drupal.org/project/flexslider</a></td>
-      <td><code>composer require 'drupal/flexslider:^2.0'</code></td>
+      <td><code>composer require 'drupal/flexslider:^3.0@alpha'</code></td>
       <td>^9 || ^10</td>
     </tr>
     <tr>
@@ -407,7 +407,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>geolocation</td>
-      <td>8.x-3.14</td>
+      <td>4.0.0-beta2</td>
       <td>Provides a field type to store geographical locations as latitude/longitude with display integration</td>
       <td><a href="https://www.drupal.org/project/geolocation">https://www.drupal.org/project/geolocation</a></td>
       <td><code>composer require 'drupal/geolocation:^4.0@beta'</code></td>
@@ -463,7 +463,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>image_effects</td>
-      <td>4.0.0</td>
+      <td>5.0.0-rc1</td>
       <td>Adds various visual effects and filters to images for enhanced image manipulation</td>
       <td><a href="https://www.drupal.org/project/image_effects">https://www.drupal.org/project/image_effects</a></td>
       <td><code>composer require 'drupal/image_effects:^5.0@RC'</code></td>
@@ -495,7 +495,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>inline_entity_form</td>
-      <td></td>
+      <td>3.0.0-rc21</td>
       <td>Provides a widget for creating and editing entities inline within parent forms</td>
       <td><a href="https://www.drupal.org/project/inline_entity_form">https://www.drupal.org/project/inline_entity_form</a></td>
       <td><code>composer require 'drupal/inline_entity_form:^3.0@RC'</code></td>
@@ -543,15 +543,15 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>jsonapi_views</td>
-      <td>8.x-1.1</td>
+      <td>8.x-1.0</td>
       <td>Creates JSON:API Resource for each Views display for external data consumption</td>
       <td><a href="https://www.drupal.org/project/jsonapi_views">https://www.drupal.org/project/jsonapi_views</a></td>
-      <td><code>composer require 'drupal/jsonapi_views:^1.1'</code></td>
-      <td>>=8.8</td>
+      <td><code>composer require 'drupal/jsonapi_views:^1.0'</code></td>
+      <td>^8.8 || ^9</td>
     </tr>
     <tr>
       <td>juicebox</td>
-      <td></td>
+      <td>4.0.0-alpha2</td>
       <td>Provides integration between the Juicebox HTML5 responsive gallery library and Drupal</td>
       <td><a href="https://www.drupal.org/project/juicebox">https://www.drupal.org/project/juicebox</a></td>
       <td><code>composer require 'drupal/juicebox:^4.0@alpha'</code></td>
@@ -567,7 +567,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>layout_library</td>
-      <td></td>
+      <td>8.x-1.0-beta6</td>
       <td>Provides a layout library allowing content editors to pick from pre-defined layouts</td>
       <td><a href="https://www.drupal.org/project/layout_library">https://www.drupal.org/project/layout_library</a></td>
       <td><code>composer require 'drupal/layout_library:^1.0@beta'</code></td>
@@ -591,7 +591,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>link_icons</td>
-      <td>3.0.3</td>
+      <td>3.1.0-rc7</td>
       <td>Field formatter for Link fields to display icons for the linked service</td>
       <td><a href="https://www.drupal.org/project/link_icons">https://www.drupal.org/project/link_icons</a></td>
       <td><code>composer require 'drupal/link_icons:^3.1@RC'</code></td>
@@ -615,7 +615,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>media_directories</td>
-      <td>2.0.5</td>
+      <td>2.1.0-beta6</td>
       <td>Alternative way to browse and pick Media with a jsTree-based directory structure</td>
       <td><a href="https://www.drupal.org/project/media_directories">https://www.drupal.org/project/media_directories</a></td>
       <td><code>composer require 'drupal/media_directories:^2.2@beta'</code></td>
@@ -679,7 +679,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>openai</td>
-      <td></td>
+      <td>1.0.0-beta6</td>
       <td>AI module framework for integrating OpenAI and other AI services with Drupal</td>
       <td><a href="https://www.drupal.org/project/openai">https://www.drupal.org/project/openai</a></td>
       <td><code>composer require 'drupal/openai:^1.0@beta'</code></td>
@@ -711,7 +711,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>pwa</td>
-      <td>8.x-1.7</td>
+      <td>2.1.0-beta7</td>
       <td>Progressive Web Apps providing native-like experience with offline capability and homescreen installation</td>
       <td><a href="https://www.drupal.org/project/pwa">https://www.drupal.org/project/pwa</a></td>
       <td><code>composer require 'drupal/pwa:^2.1@beta'</code></td>
@@ -727,7 +727,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>rabbit_hole</td>
-      <td>8.x-1.0</td>
+      <td>2.0.0-beta1</td>
       <td>Controls display of content on its own page by blocking access to content</td>
       <td><a href="https://www.drupal.org/project/rabbit_hole">https://www.drupal.org/project/rabbit_hole</a></td>
       <td><code>composer require 'drupal/rabbit_hole:^2.0@beta'</code></td>
@@ -775,7 +775,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>redis</td>
-      <td>8.x-1.11</td>
+      <td>2.0.0-alpha1</td>
       <td>Integration of Drupal with Redis key-value store providing cache, lock, flood and queue backends</td>
       <td><a href="https://www.drupal.org/project/redis">https://www.drupal.org/project/redis</a></td>
       <td><code>composer require 'drupal/redis:^2.0@alpha'</code></td>
@@ -823,7 +823,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>search404</td>
-      <td>2.1.2</td>
+      <td>2.2.0-rc3</td>
       <td>Handles 404 pages with search functionality</td>
       <td><a href="https://www.drupal.org/project/search404">https://www.drupal.org/project/search404</a></td>
       <td><code>composer require 'drupal/search404:^2.2@RC'</code></td>
@@ -895,7 +895,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>sitewide_alert</td>
-      <td>3.0.1</td>
+      <td>3.1.0-beta2</td>
       <td>Adds ability to show alerts at the top of your site</td>
       <td><a href="https://www.drupal.org/project/sitewide_alert">https://www.drupal.org/project/sitewide_alert</a></td>
       <td><code>composer require 'drupal/sitewide_alert:^3.1@beta'</code></td>
@@ -919,10 +919,10 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>social_login</td>
-      <td>8.x-2.89</td>
+      <td>3.2.0-alpha1</td>
       <td>Allows users to register and login with existing social network accounts</td>
       <td><a href="https://www.drupal.org/project/social_login">https://www.drupal.org/project/social_login</a></td>
-      <td><code>composer require 'drupal/social_login:^2.89'</code></td>
+      <td><code>composer require 'drupal/social_login:^3.2@alpha'</code></td>
       <td>^8 || ^9 || ^10</td>
     </tr>
     <tr>
@@ -1007,7 +1007,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>ultimate_cron</td>
-      <td></td>
+      <td>8.x-2.0-beta1</td>
       <td>Ultimate Cron handling for Drupal running jobs individually in parallel</td>
       <td><a href="https://www.drupal.org/project/ultimate_cron">https://www.drupal.org/project/ultimate_cron</a></td>
       <td><code>composer require 'drupal/ultimate_cron:^2.0@beta'</code></td>
@@ -1063,7 +1063,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>views_field_view</td>
-      <td></td>
+      <td>8.x-1.0-beta6</td>
       <td>Embeds a list inside each row of another view</td>
       <td><a href="https://www.drupal.org/project/views_field_view">https://www.drupal.org/project/views_field_view</a></td>
       <td><code>composer require 'drupal/views_field_view:^1.0@beta'</code></td>
@@ -1071,7 +1071,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>views_ical</td>
-      <td></td>
+      <td>8.x-1.0-alpha14</td>
       <td>Creates iCal feeds with Views using Fields row style</td>
       <td><a href="https://www.drupal.org/project/views_ical">https://www.drupal.org/project/views_ical</a></td>
       <td><code>composer require 'drupal/views_ical:^1.0@alpha'</code></td>
@@ -1103,7 +1103,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>webform</td>
-      <td>6.2.9</td>
+      <td>6.3.0-beta6</td>
       <td>Build forms to collect data from site visitors with conditional logic and email notifications</td>
       <td><a href="https://www.drupal.org/project/webform">https://www.drupal.org/project/webform</a></td>
       <td><code>composer require 'drupal/webform:^6.3@beta'</code></td>
@@ -1111,7 +1111,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>webp</td>
-      <td></td>
+      <td>8.x-1.0-rc2</td>
       <td>Creates a WebP copy of image style derivatives to decrease loading times</td>
       <td><a href="https://www.drupal.org/project/webp">https://www.drupal.org/project/webp</a></td>
       <td><code>composer require 'drupal/webp:^1.0@RC'</code></td>
