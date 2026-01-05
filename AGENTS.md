@@ -4,9 +4,9 @@
 This repo is a curated list of Drupal contrib modules. The primary source lives in `README.md` (human-readable table). Specs and checklists for content updates live in `specs/` and describe the expected data fields and formatting.
 
 ## Build, Test, and Development Commands
-There is no build system or automated test suite in this repository. Updates are made by editing Markdown/pipe-separated files directly.
-- Example: update module metadata in `README.md`, then regenerate matching rows in `README.com`.
-- Optional sanity check: `rg "module_name" README.md README.com` to confirm entries exist in both files.
+There is no build system or automated test suite in this repository. Updates are made by editing `README.md` directly or using the update script.
+- Update table data from Drupal.org: `python3 scripts/update_readme.py`
+- Optional sanity check: `rg "module_name" README.md` to confirm entries exist.
 
 ## Coding Style & Naming Conventions
 - Use Markdown headings and tables in `README.md`.
