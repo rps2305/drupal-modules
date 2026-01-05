@@ -19,6 +19,7 @@ There is no build system or automated test suite in this repository. Updates are
 No automated tests are configured. Manually spot-check a few entries after edits:
 - Confirm descriptions are short and from the project summary.
 - Confirm composer commands and version constraints match the module’s Drupal.org page.
+- Update the Drupal 11 compatibility note below the table when modules lack ^11 support.
 
 ## Commit & Pull Request Guidelines
 Commit messages in this repo are short, imperative updates (e.g., "Update Drupal compatibility info"). Keep commits focused on content changes. For pull requests, include:
