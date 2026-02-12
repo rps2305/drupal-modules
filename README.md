@@ -226,7 +226,7 @@ My favourite Drupal modules
       <td>4.0.5</td>
       <td>A developer toolkit that provides APIs and utilities to improve the developer experience</td>
       <td><a href="https://www.drupal.org/project/ctools">https://www.drupal.org/project/ctools</a></td>
-      <td><code>composer require 'drupal/ctools:^4.1'</code></td>
+      <td><code>composer require 'drupal/ctools:^4.0'</code></td>
       <td>^9.3 || ^10</td>
     </tr>
     <tr>
@@ -399,7 +399,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>geo_location</td>
-      <td></td>
+      <td>8.x-3.12</td>
       <td>Provides a field type to store and display geographical locations</td>
       <td><a href="https://www.drupal.org/project/geo_location">https://www.drupal.org/project/geo_location</a></td>
       <td><code>composer require 'drupal/geo_location:^3.12'</code></td>
@@ -618,7 +618,7 @@ My favourite Drupal modules
       <td>2.1.0-beta6</td>
       <td>Alternative way to browse and pick Media with a jsTree-based directory structure</td>
       <td><a href="https://www.drupal.org/project/media_directories">https://www.drupal.org/project/media_directories</a></td>
-      <td><code>composer require 'drupal/media_directories:^2.2@beta'</code></td>
+      <td><code>composer require 'drupal/media_directories:^2.1@beta'</code></td>
       <td>^9.5 || ^10</td>
     </tr>
     <tr>
@@ -1042,7 +1042,7 @@ My favourite Drupal modules
       <td>8.x-2.7</td>
       <td>Creates a simple field type to embed videos from YouTube and Vimeo with thumbnails</td>
       <td><a href="https://www.drupal.org/project/video_embed_field">https://www.drupal.org/project/video_embed_field</a></td>
-      <td><code>composer require 'drupal/video_embed_field:^3.0'</code></td>
+      <td><code>composer require 'drupal/video_embed_field:^2.7'</code></td>
       <td>^9.2 || ^10</td>
     </tr>
     <tr>
