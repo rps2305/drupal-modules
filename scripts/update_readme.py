@@ -12,6 +12,7 @@ Outputs:
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import time
 import urllib.request
@@ -25,14 +26,21 @@ TABLE_RE = re.compile(r"<table width=\"100%\">.*?</table>", re.S)
 
 def fetch_release_history(module_name: str, retries: int = 3) -> bytes:
     url = f"https://updates.drupal.org/release-history/{module_name}/current"
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "drupal-modules-readme-updater/1.0 (+https://github.com/)"
+        },
+    )
     last_err = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(url, timeout=20) as resp:
+            with urllib.request.urlopen(request, timeout=20) as resp:
                 return resp.read()
         except Exception as err:  # pragma: no cover - best-effort network IO
             last_err = err
-            time.sleep(1 + attempt)
+            if attempt < retries - 1:
+                time.sleep(1 + attempt)
     raise last_err
 
 
@@ -46,6 +54,34 @@ def major_minor(version: str) -> str:
     if len(parts) >= 2:
         return ".".join(parts[:2])
     return version
+
+
+def core_compat_supports_major(core_compat: str, major: int) -> bool:
+    """Return whether a Drupal core compatibility string allows a major version."""
+    if not core_compat:
+        return False
+
+    for raw_part in re.split(r"\s*\|\|\s*", core_compat):
+        part = raw_part.strip()
+        if not part:
+            continue
+
+        if re.search(rf"(?<!\d){major}(?:\.\d+)?(?!\d)", part):
+            return True
+
+        lower_bound = re.search(r">=\s*(\d+)(?:\.(\d+))?", part)
+        upper_bound = re.search(r"<\s*(\d+)(?:\.(\d+))?", part)
+        if lower_bound:
+            lower_major = int(lower_bound.group(1))
+            upper_major = int(upper_bound.group(1)) if upper_bound else None
+            if lower_major <= major and (upper_major is None or major < upper_major):
+                return True
+
+    return False
+
+
+def is_modern_core_compat(core_compat: str) -> bool:
+    return any(core_compat_supports_major(core_compat, major) for major in (9, 10, 11))
 
 
 def composer_constraint(version: str) -> str:
@@ -85,15 +121,16 @@ def parse_table(table_html: str) -> list[dict[str, str]]:
         if len(cols) != 6:
             raise ValueError(f"Unexpected column count: {len(cols)}")
 
-        name = re.sub(r"\s+", " ", cols[0]).strip()
-        latest = re.sub(r"\s+", " ", cols[1]).strip()
-        desc = re.sub(r"\s+", " ", cols[2]).strip()
+        name = html.unescape(re.sub(r"\s+", " ", cols[0]).strip())
+        latest = html.unescape(re.sub(r"\s+", " ", cols[1]).strip())
+        desc = html.unescape(re.sub(r"\s+", " ", cols[2]).strip())
 
         link_match = re.search(r'href=\"([^\"]+)\"', cols[3])
         url = link_match.group(1) if link_match else re.sub(r"\s+", " ", cols[3]).strip()
+        url = html.unescape(url)
 
-        composer_text = re.sub(r"<code>|</code>", "", cols[4]).strip()
-        works = re.sub(r"\s+", " ", cols[5]).strip()
+        composer_text = html.unescape(re.sub(r"<code>|</code>", "", cols[4]).strip())
+        works = html.unescape(re.sub(r"\s+", " ", cols[5]).strip())
 
         parsed.append(
             {
@@ -107,6 +144,10 @@ def parse_table(table_html: str) -> list[dict[str, str]]:
         )
 
     return parsed
+
+
+def cell(value: str) -> str:
+    return html.escape(value, quote=False)
 
 
 def build_table(rows: list[dict[str, str]]) -> str:
@@ -128,19 +169,19 @@ def build_table(rows: list[dict[str, str]]) -> str:
     body_lines = []
     for row in rows:
         body_lines.append("    <tr>")
-        body_lines.append(f"      <td>{row['name']}</td>")
-        body_lines.append(f"      <td>{row['latest']}</td>")
-        body_lines.append(f"      <td>{row['desc']}</td>")
-        body_lines.append(f"      <td><a href=\"{row['url']}\">{row['url']}</a></td>")
-        body_lines.append(f"      <td><code>{row['composer']}</code></td>")
-        body_lines.append(f"      <td>{row['works']}</td>")
+        body_lines.append(f"      <td>{cell(row['name'])}</td>")
+        body_lines.append(f"      <td>{cell(row['latest'])}</td>")
+        body_lines.append(f"      <td>{cell(row['desc'])}</td>")
+        body_lines.append(f"      <td><a href=\"{cell(row['url'])}\">{cell(row['url'])}</a></td>")
+        body_lines.append(f"      <td><code>{cell(row['composer'])}</code></td>")
+        body_lines.append(f"      <td>{cell(row['works'])}</td>")
         body_lines.append("    </tr>")
 
     footer = "  </tbody>\n</table>"
     return header_html + "\n".join(body_lines) + "\n" + footer
 
 
-def update_readme(readme_path: Path, sleep_s: float) -> list[str]:
+def update_readme(readme_path: Path, sleep_s: float, retries: int = 3) -> tuple[list[str], list[str]]:
     text = readme_path.read_text()
     match = TABLE_RE.search(text)
     if not match:
@@ -151,9 +192,19 @@ def update_readme(readme_path: Path, sleep_s: float) -> list[str]:
 
     updated = []
     no_d11 = []
+    failed = []
     for entry in parsed:
         name = entry["name"]
-        xml_data = fetch_release_history(name)
+        try:
+            xml_data = fetch_release_history(name, retries=retries)
+        except Exception as err:  # pragma: no cover - best-effort network IO
+            failed.append(f"{name}: {err}")
+            if not core_compat_supports_major(entry["works"], 11):
+                no_d11.append(name)
+            updated.append(entry)
+            time.sleep(sleep_s)
+            continue
+
         root = ET.fromstring(xml_data)
 
         releases = []
@@ -176,21 +227,19 @@ def update_readme(readme_path: Path, sleep_s: float) -> list[str]:
 
         releases.sort(key=lambda r: r["date"], reverse=True)
 
-        modern = [
-            r
-            for r in releases
-            if any(v in r["core_compat"] for v in ("^9", "^10", "^11", "9", "10", "11"))
-        ]
+        modern = [r for r in releases if is_modern_core_compat(r["core_compat"])]
         modern.sort(key=lambda r: r["date"], reverse=True)
 
         latest = modern[0] if modern else (releases[0] if releases else None)
 
-        d11_releases = [r for r in releases if "11" in r["core_compat"]]
+        d11_releases = [
+            r for r in releases if core_compat_supports_major(r["core_compat"], 11)
+        ]
         d11_releases.sort(key=lambda r: r["date"], reverse=True)
         chosen = d11_releases[0] if d11_releases else latest
 
-        latest_release = latest["version"] if latest else entry["latest"]
-        works = latest["core_compat"] if latest and latest["core_compat"] else entry["works"]
+        latest_release = chosen["version"] if chosen else entry["latest"]
+        works = chosen["core_compat"] if chosen and chosen["core_compat"] else entry["works"]
 
         if chosen and chosen["version"]:
             constraint = composer_constraint(chosen["version"])
@@ -233,18 +282,22 @@ def update_readme(readme_path: Path, sleep_s: float) -> list[str]:
         text = note_re.sub("", text)
 
     readme_path.write_text(text)
-    return no_d11
+    return no_d11, failed
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Update README.md module table.")
     parser.add_argument("--sleep", type=float, default=0.2, help="Delay between requests.")
+    parser.add_argument("--retries", type=int, default=3, help="Retries per project fetch.")
     args = parser.parse_args()
 
-    no_d11 = update_readme(README_PATH, args.sleep)
+    no_d11, failed = update_readme(README_PATH, args.sleep, retries=args.retries)
     if no_d11:
         print("No Drupal 11-compatible release found for:")
         print(", ".join(sorted(no_d11)))
+    if failed:
+        print("Release-history fetches failed; kept existing README data for:")
+        print("\n".join(failed))
     return 0
 
 
