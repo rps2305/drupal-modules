@@ -223,11 +223,11 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>ctools</td>
-      <td>4.0.5</td>
+      <td>4.1.0</td>
       <td>A developer toolkit that provides APIs and utilities to improve the developer experience</td>
       <td><a href="https://www.drupal.org/project/ctools">https://www.drupal.org/project/ctools</a></td>
-      <td><code>composer require 'drupal/ctools:^4.0'</code></td>
-      <td>^9.3 || ^10</td>
+      <td><code>composer require 'drupal/ctools:^4.1'</code></td>
+      <td>^9.5 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>devel</td>
@@ -359,11 +359,11 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>flexslider</td>
-      <td>3.0.0-alpha1</td>
+      <td>3.0.0</td>
       <td>Integrates the Flex Slider library with Drupal for building responsive, resizable slideshows</td>
       <td><a href="https://www.drupal.org/project/flexslider">https://www.drupal.org/project/flexslider</a></td>
-      <td><code>composer require 'drupal/flexslider:^3.0@alpha'</code></td>
-      <td>^9 || ^10</td>
+      <td><code>composer require 'drupal/flexslider:^3.0'</code></td>
+      <td>^9 || ^10 || ^11</td>
     </tr>
     <tr>
       <td>focal_point</td>
@@ -415,7 +415,7 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>gin</td>
-      <td>5.0.10</td>
+      <td>5.0.15</td>
       <td>A completely redesigned UI layout with Darkmode and fresh look for Drupal Admin interface</td>
       <td><a href="https://www.drupal.org/project/gin">https://www.drupal.org/project/gin</a></td>
       <td><code>composer require 'drupal/gin:^5.0'</code></td>
@@ -443,7 +443,7 @@ My favourite Drupal modules
       <td>Provides integration with gridstack.js as a dynamic layout creator for two-dimensional layouts</td>
       <td><a href="https://www.drupal.org/project/gridstack">https://www.drupal.org/project/gridstack</a></td>
       <td><code>composer require 'drupal/gridstack:^3.0'</code></td>
-      <td>>=9.4</td>
+      <td>&gt;=9.4</td>
     </tr>
     <tr>
       <td>honeypot</td>
@@ -543,11 +543,11 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>jsonapi_views</td>
-      <td>8.x-1.0</td>
+      <td>8.x-1.1</td>
       <td>Creates JSON:API Resource for each Views display for external data consumption</td>
       <td><a href="https://www.drupal.org/project/jsonapi_views">https://www.drupal.org/project/jsonapi_views</a></td>
-      <td><code>composer require 'drupal/jsonapi_views:^1.0'</code></td>
-      <td>^8.8 || ^9</td>
+      <td><code>composer require 'drupal/jsonapi_views:^1.1'</code></td>
+      <td>&gt;=8.8</td>
     </tr>
     <tr>
       <td>juicebox</td>
@@ -615,11 +615,11 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>media_directories</td>
-      <td>2.1.0-beta6</td>
+      <td>2.2.0-beta2</td>
       <td>Alternative way to browse and pick Media with a jsTree-based directory structure</td>
       <td><a href="https://www.drupal.org/project/media_directories">https://www.drupal.org/project/media_directories</a></td>
-      <td><code>composer require 'drupal/media_directories:^2.1@beta'</code></td>
-      <td>^9.5 || ^10</td>
+      <td><code>composer require 'drupal/media_directories:^2.2@beta'</code></td>
+      <td>^10.2 || ^11</td>
     </tr>
     <tr>
       <td>media_entity_download</td>
@@ -1039,11 +1039,11 @@ My favourite Drupal modules
     </tr>
     <tr>
       <td>video_embed_field</td>
-      <td>8.x-2.7</td>
+      <td>3.1.0</td>
       <td>Creates a simple field type to embed videos from YouTube and Vimeo with thumbnails</td>
       <td><a href="https://www.drupal.org/project/video_embed_field">https://www.drupal.org/project/video_embed_field</a></td>
-      <td><code>composer require 'drupal/video_embed_field:^2.7'</code></td>
-      <td>^9.2 || ^10</td>
+      <td><code>composer require 'drupal/video_embed_field:^3.1'</code></td>
+      <td>^10.3 || ^11</td>
     </tr>
     <tr>
       <td>views_bootstrap</td>
@@ -1136,9 +1136,20 @@ My favourite Drupal modules
   </tbody>
 </table>
 
-Note: No Drupal 11-compatible release found for advagg, announcement_modal, bootstrap_basic_image_gallery, bootstrap_library, content_browser, flexslider, geo_location, gridstack, jsonapi_boost, jsonapi_views, radix_layouts, social_login.
+Note: No Drupal 11-compatible release found for advagg, announcement_modal, bootstrap_basic_image_gallery, bootstrap_library, content_browser, jsonapi_boost, radix_layouts, social_login.
 
 ---
+
+## Module data maintenance
+
+Use `scripts/update_readme.py` when refreshing module release metadata from Drupal.org. The table records the release selected for this collection, its Drupal.org Composer install snippet, and the release's `Works with Drupal` constraint. The updater now prefers the newest Drupal 11-compatible release when one is available, then falls back to the newest modern Drupal 9/10/11 release. If a release-history fetch fails, it keeps the existing README row and reports the project name for manual follow-up.
+
+After each refresh:
+
+- Spot-check changed rows against the linked Drupal.org project page.
+- Keep Composer constraints at Drupal.org snippet granularity (major/minor only, with `@alpha`, `@beta`, or `@RC` for prereleases).
+- Review the Drupal 11 note below the table; modules listed there currently have no Drupal 11-compatible release in the selected release data.
+- Treat open-ended constraints such as `>=8.8` or `>=9.4` as Drupal 11-compatible unless Drupal.org also publishes an upper bound that excludes 11.
 
 ## Drupal Installation and Development Guide
 
